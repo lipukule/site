@@ -1,9 +1,11 @@
 ---
 title: tan suli lipu li seme?
-author: jan pali pi lipu kule
+author:
+  - jan pali pi lipu kule
 date: '2021-01-24'
-categories:
+poki:
   - lipu kule
+kule: ante
 ---
 
 lipu kule li tan wile pi jan mute. lipu kule li tan pali pi jan mute. jan mute li lon nasin mute. taso jan pali ali li wile e ni: lipu ni o nasin pona. 

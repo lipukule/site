@@ -1,5 +1,13 @@
 <header class="lt-top-app-bar">
-	<span>
-		<a href="/"><h1>lipu kule</h1></a> <a style="margin-left: 3rem;" href="/mi/o-kama-sitelen-e-lipu-kule/"><h1>o kama sitelen e <em>lipu kule</em></h1></a>
-	</span>
+    <span class="header-grid">
+        <a href="/"><h1>lipu kule</h1></a>
+
+        <span>
+            {{ range $k := (site).Data.ijo }}
+                <a href="/kule/{{ $k }}"><h1 class="fg-{{ index (site).Data.poki $k "kule" }}">{{ $k }}</h1></a>
+            {{ end }}
+        </span>
+
+        <a href="/mi/o-kama-sitelen-e-lipu-kule/"><h1>o kama sitelen e <em>lipu kule!</em></h1></a>
+    </span>
 </header>

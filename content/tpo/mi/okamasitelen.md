@@ -1,9 +1,11 @@
 ---
 title: o kama sitelen e lipu kule!
-author: jan pali pi lipu kule
+author:
+  - jan pali pi lipu kule
 date: '2021-01-27T17:12:00'
-categories:
+poki:
   - lipu kule
+kule: ante
 ---
 
 mi mute li wile e sitelen [pona](https://lipukule.org/post/2021/01/24/tan-suli-lipu-li-seme/) sina. lipu ni li tan jan pi toki pona. sina ken lukin e ni la, sina jan pi toki pona. o kama sitelen!

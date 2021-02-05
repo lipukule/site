@@ -1,58 +1,15 @@
-{{ define "main" }}
-<h1>lipu pi {{ .Title }}</h1>
-<br>
+{{ define "heading" }}
+<h1>{{ .Title }}</h1>
 {{ .Content }}
-<br>
+{{ if eq .Data.Singular "category" }}
 <button onclick="addlen('{{ .Title }}')">o len e {{ .Title }}</button>
 <button onclick="removelen('{{ .Title }}')">o len ala e {{ .Title }}</button>
-<br>
+{{ end }}
+{{ end }}
+{{ define "main" }}
 <br>
 <div class="lt-card-list">
-    {{ range .Pages }}
 
-    <div class="lt-card lt-article-card" onclick="location.href = {{ .RelPermalink }}" role="button">
-        {{ with .Params.thumbnail }}
-            <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
-        {{ end }}
+{{ partial "pagelist.html" .Pages }}
 
-        <div class="len">
-            <div>
-                <span>len li tan ni:</span>
-                <ul>
-                    {{ with .Params.categories }}
-                    {{ range first 1 . }}
-                    <li>{{ . }}</li>
-                    {{ end }}
-                    {{ end }}
-                </ul>
-            </div>
-        </div>
-
-        <div class="lt-article-card-row">
-            <span class="lt-article-card-title" href="{{ .RelPermalink }}">{{ .Title }}</span>
-            <div class="lt-article-card-row-spacer"></div>
-            {{ if .Params.author }}<span class="lt-article-card-author">tan {{ .Params.author }}</span>{{ end }}
-        </div>
-
-        <div class="lt-article-card-summary">
-            {{ with .Description }}
-                {{ $.Scratch.Set "summary" (markdownify .) }}
-            {{ else }}
-                {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-            {{ end }}
-            {{ $.Scratch.Get "summary" }}
-        </div>
-
-        {{ with .Params.categories }}
-        <div class="lt-article-card-row">
-            <div class="lt-article-card-row-spacer"></div>
-            {{ range first 1 . }}
-            <a class="lt-article-card-chip" href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
-            {{ end }}
-        </div>
-        {{ end }}
-    </div>
-
-    {{ end }}
-</div>
 {{ end }}

@@ -12,7 +12,6 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
     background-color: var(--body);
     transition: 120ms transform;
     border-radius: 3px;
-    border: 1px solid var(--rim);
     position: relative;
 
     &:hover {
@@ -21,6 +20,9 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
     }
     &:active {
         transform: translateY(3px);
+    }
+    &-color {
+        background-color: var(--lojelo);
     }
     &-thumbnail {
         width: 100%;

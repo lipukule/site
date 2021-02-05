@@ -1,11 +1,13 @@
 ---
 title: omekapo
-author: kala pona Tonyu
+author:
+  - kala pona Tonyu
 date: '2021-01-23'
-categories:
+poki:
   - nasin pi ma pona
   - nimi pi pu ala
   - nasin toki pi toki pona
+kule: toki
 ---
 
 ken la, sina lon kulupu 'ma pona pi toki pona' la, sina kute mute e ni lon toki uta: 'omekapo!' taso sina sona ala sona e kon pi nimi ni? sina sona la, sina sona ala sona e tan, e kama lon pi nimi ni?

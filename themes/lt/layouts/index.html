@@ -18,56 +18,7 @@
 {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
 {{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
 
-{{ range $paginator.Pages }}
-
-<div class="lt-card lt-article-card" onclick="location.href = {{ .RelPermalink }}" role="button">
-    {{ with .Params.thumbnail }}
-        <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
-    {{ end }}
-
-    <div class="len">
-        <div>
-            <span>len li tan ni:</span>
-            <ul>
-                {{ with .Params.categories }}
-                {{ range first 1 . }}
-                <li>{{ . }}</li>
-                {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-    </div>
-
-    <div class="lt-article-card-row">
-        <h3 class="lt-article-card-title">{{ .Title }}</h3>
-        <div class="lt-article-card-row-spacer"></div>
-        {{ if .Params.author }}<address class="lt-article-card-author">tan {{ .Params.author }}</address>{{ end }}
-    </div>
-
-    <div class="lt-article-card-summary">
-        {{ with .Description }}
-            {{ $.Scratch.Set "summary" (markdownify .) }}
-        {{ else }}
-            {{ $.Scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-        {{ end }}
-        {{ $.Scratch.Get "summary" }}
-    </div>
-
-    {{ with .Params.categories }}
-    <div class="lt-article-card-row">
-        <div class="lt-article-card-row-spacer"></div>
-        {{ range . }}
-        <a class="lt-article-card-chip" href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
-        {{ end }}
-    </div>
-    {{ end }}
-</div>
-
-<noscript>
-    <a href="{{ .RelPermalink }}">tawa lipu {{ .Title }}</a>
-</noscript>
-
-{{ end }}
+{{ partial "pagelist.html" $paginator.Pages }}
 
 <nav>{{ template "_internal/pagination.html" . }}</nav>
 

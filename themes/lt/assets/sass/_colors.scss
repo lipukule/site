@@ -12,6 +12,17 @@
 
     --code: rgba(0, 0, 0, 0.05);
     --big-code: rgba(0, 0, 0, 0.1);
+
+    --lojunu: #ffa4c5;
+    --loje: #ffa893;
+    --lojelo: #ffb777;
+    --jelo: #cac976;
+    --graso: #8ed890;
+    --laso: #66dfc2;
+    --blaso: #5bddfd;
+    --lasewi: #76d0ff;
+    --lasunu: #b3beff;
+    --unu: #fbadff;
 }
 
 @mixin pimeja {
@@ -28,6 +39,51 @@
     --link: #8adcff;
 
     --rim: rgba(255, 255, 255, 0.1);
+
+    --lojunu: #ffa4c5;
+    --loje: #ffa893;
+    --lojelo: #ffb777;
+    --jelo: #cac976;
+    --graso: #8ed890;
+    --laso: #66dfc2;
+    --blaso: #5bddfd;
+    --lasewi: #76d0ff;
+    --lasunu: #b3beff;
+    --unu: #fbadff;
+}
+
+$colors: lojunu, loje, lojelo, jelo, graso, laso, blaso, lasewi, lasunu, unu;
+
+@each $color in $colors {
+    .fg-#{$color} {
+        color: var(--#{$color}) !important;
+    }
+    [data-nasin-lukin="walo"] .bg-#{$color} {
+        background-color: var(--#{$color}) !important;
+    }
+    @media (prefers-color-scheme: light) {
+        .bg-#{$color} {
+            background-color: var(--#{$color}) !important;
+        }
+    }
+    [data-nasin-lukin="pimeja"] .bg-#{$color} {
+        border: 3px solid var(--#{$color});
+        box-shadow: 0 0 40px var(--#{$color}) !important;
+    }
+    @media (prefers-color-scheme: dark) {
+        :root:not([data-nasin-lukin="walo"]).bg-#{$color} {
+            border: 3px solid var(--#{$color});
+            box-shadow: 0 0 40px var(--#{$color}) !important;
+        }
+    }
+}
+
+.fg-body {
+    color: var(--on-body) !important;
+}
+
+.fg-link {
+    color: var(--link) !important;
 }
 
 :root {

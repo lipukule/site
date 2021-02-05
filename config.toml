@@ -12,9 +12,17 @@ DefaultContentLanguage = "tpo"
     post = "/post/:year/:month/:day/:slug/"
     lipu = "/lipu/:year/:month/:day/:slug/"
     mi = "/mi/:slug/"
+    janpali = "/janpali/:slug"
+    poki = "/poki/:slug"
+    kule = "/kule/:slug"
 
 [params]
     description = "lipu sona pi toki pona."
+
+[taxonomies]
+    poki = "poki"
+    kule = "kule"
+    janpali = "janpali"
 
 [languages]
     [languages.tpo]

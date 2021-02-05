@@ -1,11 +1,13 @@
 ---
 title: tomo kasi nanpa tu
-author: kule epiku Atawan
+author:
+  - kule epiku Atawan
 date: '2021-02-07'
-categories:
+poki:
   - ma lon
   - sona kasi
 thumbnail: "/images/tomokasi/1.jpg"
+kule: sona
 ---
 
 lon ma Olako (Oracle) pi ma Alisona (Arizona, U.S.) la, ma pi telo ala en weka pi ijo ante ale la, tomo suli li lon. ona li tomo walo pi kiwen lukin mute. taso, ante tawa ni la insa ona li jo e ijo mute. insa ona, la kasi li lon! kasi mute en ma ante li lon insa pi tomo walo ni. jan li sona e tomo walo ni: ona li tomo kasi nanpa tu.

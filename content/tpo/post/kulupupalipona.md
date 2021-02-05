@@ -1,11 +1,13 @@
 ---
 title: kulupu pali pona
-author: jan Jan
+author:
+  - jan Jan
 date: '2021-01-25T6:35:40'
-categories:
+poki:
   - ilo
   - ilo Linu
   - pali ilo
+kule: ilo
 ---
 
 tenpo pini la jan mute li jo ala e ilo pi toki pona. taso tenpo ni la ilo pi toki pona li lon. tan seme a? kulupu pali pona li kama lon. kulupu pali pona li pali e ilo pi toki pona. tenpo ni la ona li kama lon e ilo tu wan pi toki pona. mi pana e lukin pi ilo ni tawa sina.

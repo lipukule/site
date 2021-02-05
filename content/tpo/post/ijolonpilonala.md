@@ -1,10 +1,12 @@
 ---
 title: ijo lon pi lon ala
-author: kulupu En
+author:
+  - kulupu En
 date: '2021-02-01'
-categories:
+poki:
   - sona nasin
 thumbnail: https://i.imgur.com/QcA5qgC.png
+kule: sona
 ---
 
 tenpo mute la, jan li kepeken nasin tawa sona pi ijo lon. nasin ni la, jan li ken sona e ijo lon, li ken pali e ijo kepeken sona, li ken kama e sona sin. tenpo mute la, ni li lon: ijo li lon, anu ijo li powe. ona tu li ken ala lon tenpo sama. ni li nasin sona pi tenpo mute.

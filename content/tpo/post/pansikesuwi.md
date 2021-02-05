@@ -1,12 +1,14 @@
 ---
 title: pan sike suwi
-author: jan Nijo
+author:
+  - jan Nijo
 date: '2021-02-04'
-categories:
+poki:
   - moku
   - pan
   - pali moku
 thumbnail: "/images/pansikesuwi/29.jpg"
+kule: moku
 ---
 
 nasin pali pi pan sike suwi
