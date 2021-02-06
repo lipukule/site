@@ -1,0 +1,28 @@
+---
+title: telo li lon ma mi
+author:
+  - waso pimeja
+  - jan Nijo
+date: '2021-02-10'
+categories:
+  - musi toki
+thumbnail: ../../../static/images/teloma/1.jpg
+---
+
+telo li lon ma mi
+![telo li tan sewi pimeja tawa ma laso. sitelen pona li lon insa ni. ona la telo li lon ma mi.](../../../static/images/teloma/1.jpg)
+
+pipi tan anpa
+![sewi pimeja li awen pana e telo mute. pipi linja li tan insa ma li lon anpa kasi. pipi li tawa musi. sitelen pona la pipi tan anpa.](../../../static/images/teloma/2.jpg)
+
+kalama
+![telo sewi li tawa sewi tomo la telo li tawa poki. poki ni li nasa e tawa telo li kalama a. kasi suli li lon. sitelen pona la kalama.](../../../static/images/teloma/3.jpg)
+
+kon
+![telo sewi li tawa ma la kon pimeja li kama lon li pona tawa pilin. sitelen pona la kon.](../../../static/images/teloma/3.jpg)
+
+telo li tan sewi
+![sewi pimeja la telo li tawa lukin. sitelen pona la telo li tan sewi.](../../../static/images/teloma/4.jpg)
+
+lon ma mi
+![sewi pimeja li awen pana e telo mute. pipi sin li lon kasi. tomo li awen. sitelen pona la lon ma mi.](../../../static/images/teloma/5.jpg)
