@@ -18,7 +18,7 @@ jan Sate li lon ma Enkan (Hong Kong) la, ijo li tawa mi kepeken tenpo mute. mi a
 mi open e poki ona li weka e poki. mi kepeken lili e ilo nanpa. ona li pona tawa mi.
 
 ona li sama ni:  
-![ilo nanpa li lon sinpin mi. ona li lon poka lipu sona ona.](/images/ilonanpa.jpg)
+![ilo nanpa li lon supa mi. ona li lon poka lipu sona ona.](/images/ilonanpa.jpg)
 
 lipu sona ona la, ilo nanpa li ken pali e ni:
  - ona li ken wan e nanpa tu. ni la, jan li pana e nanpa tu la, ona li pana e wan pi nanpa ni.
