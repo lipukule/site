@@ -3,7 +3,7 @@ title: telo li lon ma mi
 author:
   - waso pimeja
   - jan Nijo
-date: '2021-02-10'
+date: '2021-02-09'
 categories:
   - musi toki
 thumbnail: "/images/teloma/1.jpg"
