@@ -1,0 +1,12 @@
+{{ define "heading" }}
+<h1>lipu tan {{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+
+{{ define "main" }}
+<br>
+<div class="lt-card-list">
+
+{{ partial "pagelist.html" .Pages }}
+
+{{ end }}

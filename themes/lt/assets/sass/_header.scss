@@ -42,6 +42,11 @@
         > *:not(:first-child):not(:last-child) {
             flex: 1.1;
             text-align: center;
+
+            a {
+                margin-left: 5pt;
+                margin-right: 5pt;
+            }
         }
         @media screen and (max-width: 799px) {
             > *:not(:first-child):not(:last-child), > *:last-child {
