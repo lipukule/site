@@ -12,7 +12,7 @@
         <div>
             <span>len li tan ni:</span>
             <ul>
-                {{ with .Params.categories }}
+                {{ with .Params.poki }}
                 {{ range first 1 . }}
                 <li>{{ . }}</li>
                 {{ end }}
@@ -40,7 +40,7 @@
         {{ $scratch.Get "summary" }}
     </div>
 
-    {{ with .Params.categories }}
+    {{ with .Params.poki }}
     <div class="lt-article-card-row">
         <div class="lt-article-card-row-spacer"></div>
         {{ range . }}

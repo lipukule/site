@@ -4,7 +4,7 @@ author:
   - waso pimeja
   - jan Nijo
 date: '2021-02-09'
-categories:
+poki:
   - musi toki
 ---
 
