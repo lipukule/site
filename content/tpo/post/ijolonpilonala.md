@@ -1,6 +1,6 @@
 ---
 title: ijo lon pi lon ala
-author:
+janpali:
   - kulupu En
 date: '2021-02-01'
 poki:

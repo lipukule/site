@@ -1,6 +1,6 @@
 ---
 title: monsutatesu
-author:
+janpali:
   - kala pona Tonyu
 date: '2021-01-29'
 poki:

@@ -1,5 +1,5 @@
 <h2>{{ .Title }}<br>
-    {{ with .Params.author }}
+    {{ with .Params.janpali }}
         {{range first 2 . }}
             <address class="lt-article-card-author">tan <a href="{{ relURL (print "/janpali/" . | urlize) }}" class="fg-link">{{ . }}&nbsp;</a></address>
         {{ end }}

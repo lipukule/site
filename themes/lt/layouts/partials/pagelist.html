@@ -24,7 +24,7 @@
     <div class="lt-article-card-row">
         <h3 class="lt-article-card-title">{{ .Title }}</h3>
         <div class="lt-article-card-row-spacer"></div>
-        {{ with .Params.author }}
+        {{ with .Params.janpali }}
         {{range first 2 . }}
         <address class="lt-article-card-author"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">tan {{ . }}&nbsp;</a></address>{{ end }}
         {{ end }}

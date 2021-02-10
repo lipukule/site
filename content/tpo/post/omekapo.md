@@ -1,6 +1,6 @@
 ---
 title: omekapo
-author:
+janpali:
   - kala pona Tonyu
 date: '2021-01-23'
 poki:

@@ -1,6 +1,6 @@
 ---
 title: pan sike suwi
-author:
+janpali:
   - jan Nijo
 date: '2021-02-04'
 poki:

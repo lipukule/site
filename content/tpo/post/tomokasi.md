@@ -1,6 +1,6 @@
 ---
 title: tomo kasi nanpa tu
-author:
+janpali:
   - kule epiku Atawan
 date: '2021-02-07'
 poki:

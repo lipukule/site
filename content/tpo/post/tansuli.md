@@ -1,6 +1,6 @@
 ---
 title: tan suli lipu li seme?
-author:
+janpali:
   - jan pali pi lipu kule
 date: '2021-01-24'
 poki:

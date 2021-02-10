@@ -1,6 +1,6 @@
 ---
 title: kulupu pali pona
-author:
+janpali:
   - jan Jan
 date: '2021-01-25T6:35:40'
 poki:

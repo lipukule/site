@@ -1,6 +1,6 @@
 ---
 title: telo li lon ma mi
-author:
+janpali:
   - waso pimeja
   - jan Nijo
 date: '2021-02-09'

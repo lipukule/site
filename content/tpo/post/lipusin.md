@@ -1,6 +1,6 @@
 ---
 title: lipu kule li kama lon
-author:
+janpali:
   - jan Ana
 date: '2021-01-20'
 poki:
