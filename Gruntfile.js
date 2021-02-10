@@ -59,11 +59,25 @@ module.exports = function(grunt) {
                 return
             }
 
+            const d = new Date(frontMatter.date)
+
             var href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(".md").s;
             // href for index.md files stops at the folder name
             if (filename === "index.md") {
                 href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
             }
+
+            const l = l => ('0' + l).slice(-2)
+
+            href = href.replace("/post/", `/post/${d.getFullYear()}/${l(d.getMonth()+1)}/${l(d.getDate()+1)}/`)
+
+            let split = href.split('/')
+            split.pop()
+            split.push(String(frontMatter.title).toLowerCase().replace(/ /g, '-'))
+
+            href = split.join('/')
+
+            console.log(href)
 
             // Build Lunr index for this page
             pageIndex = {

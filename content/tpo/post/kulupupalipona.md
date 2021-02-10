@@ -2,7 +2,7 @@
 title: kulupu pali pona
 janpali:
   - jan Jan
-date: '2021-01-25T6:35:40'
+date: '2021-01-25'
 poki:
   - ilo
   - ilo Linu

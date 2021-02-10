@@ -1,8 +1,18 @@
+<script>
+    function opensearch() {
+        document.getElementById("iloalasa").style.display = "initial"
+    }
+    function alasa() {
+        console.log(document.getElementById("search").value)
+        console.log(searchIndex.search(document.getElementById("search").value))
+        window.location.href = searchIndex.search(document.getElementById("search").value)[0].ref
+    }
+</script>
 <header class="lt-top-app-bar">
     <span class="header-grid">
         <span>
             <a href="/"><h1>lipu kule</h1></a>
-            <!-- <a href="/iloalasa"><h1>ilo alasa</h1></a> -->
+            <a onclick="opensearch()"><h1>ilo alasa</h1></a>
         </span>
 
         <span>
@@ -14,3 +24,8 @@
         <a href="/mi/o-kama-sitelen-e-lipu-kule/"><h1>o kama sitelen e <em>lipu kule!</em></h1></a>
     </span>
 </header>
+
+<form style="display: none;" id="iloalasa" onsubmit="alasa(); return false">
+    <input type="text" id="search"></textarea>
+    <button type="submit">o alasa</button>
+</form>
