@@ -1,4 +1,11 @@
 <footer class="lt-site-footer">
+    <span class="lili-taso">
+        {{ range $k := (site).Data.ijo }}
+            <a href="/kule/{{ $k }}" class="fg-{{ index (site).Data.poki $k "kule" }}">{{ $k }}</a>
+        {{ end }}
+    </span>
+    <br>
+    <br>
     <a href="https://discord.gg/TmReVRxG8Z" />o lukin e kulupu Siko mi!</a>
     <a href="https://t.me/lipukule" />o lukin e kulupu Telekan mi!</a>
     <button onclick="toggleScheme()">ante e nasin lukin lipu</button>

@@ -86,6 +86,12 @@ $colors: lojunu, loje, lojelo, jelo, graso, laso, blaso, lasewi, lasunu, unu;
     color: var(--link) !important;
 }
 
+@media (min-width: 800px) {
+    .lili-taso {
+        display: none;
+    }
+}
+
 :root {
     @include walo;
 }
