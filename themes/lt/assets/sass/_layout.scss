@@ -7,6 +7,7 @@
 
     .lt-content {
         max-width: 800px;
+        max-width: unquote("min(800px, 80vw)");
         margin-left: auto;
         margin-right: auto;
         margin-top: 48px;
