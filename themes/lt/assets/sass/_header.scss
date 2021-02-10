@@ -4,10 +4,6 @@
 
     background-color: var(--header);
 
-    overflow-x: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
     display: grid;
     place-items: center;
 
@@ -40,7 +36,7 @@
             text-align: right;
         }
         > *:not(:first-child):not(:last-child) {
-            flex: 1.1;
+            flex: 0.7;
             text-align: center;
 
             a {

@@ -6,6 +6,7 @@ janpali:
 date: '2021-02-09'
 poki:
   - musi toki
+kule: musi
 ---
 
 telo li lon ma mi
