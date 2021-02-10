@@ -62,7 +62,7 @@ $colors: lojunu, loje, lojelo, jelo, graso, laso, blaso, lasewi, lasunu, unu;
         background-color: var(--#{$color}) !important;
     }
     @media (prefers-color-scheme: light) {
-        .bg-#{$color} {
+        :root:not([data-nasin-lukin="pimeja"]).bg-#{$color} {
             background-color: var(--#{$color}) !important;
         }
     }
