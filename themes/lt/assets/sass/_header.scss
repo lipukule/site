@@ -32,6 +32,10 @@
         }
         > *:first-child {
             text-align: left;
+
+            *:last-child {
+                margin-left: 6pt;
+            }
         }
         > *:last-child {
             text-align: right;
