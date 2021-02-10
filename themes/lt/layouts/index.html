@@ -16,7 +16,7 @@
 
 {{ $pages := .Pages }}
 {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
-{{ $paginator := .Paginate (where $pages "Section" "!=" "") }}
+{{ $paginator := .Paginate (where $pages "Section" "==" "post") }}
 
 {{ partial "pagelist.html" $paginator.Pages }}
 
