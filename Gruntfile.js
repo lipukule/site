@@ -76,7 +76,19 @@ module.exports = function(grunt) {
             return pageIndex;
         };
 
-        grunt.file.write("static/page-index.json", JSON.stringify(indexPages()));
+        let pages = indexPages();
+
+        const ln = require("lunr");
+        const idx = ln(function() {
+            this.field("title", {boost: 10})
+            this.field("tags", {boost: 5})
+            this.field("content")
+            this.ref("href")
+
+            pages.filter(x => x != null).forEach(p => this.add(p))
+        })
+
+        grunt.file.write("static/page-index.json", JSON.stringify(idx));
         grunt.log.ok("Index built");
     });
 };
