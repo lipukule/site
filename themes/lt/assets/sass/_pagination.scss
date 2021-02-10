@@ -1,0 +1,29 @@
+ul.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    li {
+        list-style-type: none;
+    }
+
+    .disabled {
+        opacity: 0.5;
+
+        a {
+            color: var(--on-body);
+        }
+    }
+
+    .page-item {
+        padding: 8px;
+        border-radius: 30px;
+    }
+
+    .active {
+        background-color: var(--rim);
+    }
+
+    @extend .lt-card;
+    border: 1px solid var(--rim);
+}
