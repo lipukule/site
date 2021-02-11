@@ -1,6 +1,7 @@
 ---
 title: len kule
-janpali: jan Nijo
+janpali:
+- jan Nijo
 date: '2021-02-11'
 poki:
   - jan kule
