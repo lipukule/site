@@ -1,10 +1,11 @@
 ---
 title: len kule
-author: jan Nijo
+janpali: jan Nijo
 date: '2021-02-11'
-categories:
+poki:
   - jan kule
   - pali musi
+kule: musi
 ---
 
 ni li len lipu pi jan kule. ona o pona!
