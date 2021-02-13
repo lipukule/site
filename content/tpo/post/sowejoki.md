@@ -22,7 +22,7 @@ a! ken la mi ken pana e kalama ona tawa toki pona. ni la ona li kama nimi 'Sapoj
 
 taso wile mi la, jan sin tawa toki musi ni li ken sona e kon nimi. nimi 'Jabberwocky' lon toki Inli li soweli tawa kute - jan li lukin e nimi ni la, ona li pilin e ni: 'a, ni li soweli!' ni la, mi o ante e nimi 'Sapojoki' tawa nimi 'Sowejoki'. ken la jan li ken pilin e ni tawa nimi mi kin: 'a, ni li soweli!'
 
-(kin la, ona li sama lili 'sowejaki'. ni li pona tan ni: jan mute li toki e 'toki musi pi nimi jaki' tawa toki musi 'Jabberwocky'. ni la kon ona li sama, li pona a.)
+(kin la, ona li sama lili 'sowe**jaki**'. ni li pona tan ni: jan mute li toki e 'toki musi pi nimi jaki' tawa toki musi 'Jabberwocky'. ni la kon ona li sama, li pona a.)
 
 lon toki linja nanpa wan li ni: '’twas brillig'. taso nimi 'brillig' li nimi pi toki Inli ala... ona li seme a?
 
