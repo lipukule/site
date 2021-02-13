@@ -1,10 +1,12 @@
 ---
 title: pilin mi tawa ilo nanpa
-author: jan Ana
+janpali:
+- jan Ana
 date: '2021-02-13'
-categories:
+poki:
   - ilo
   - pilin
+kule: ilo
 ---
 
 ilo nanpa pi jan Sate li pona mute tawa kulupu pi toki pona. jan Sate li pali e sitelen tawa pi ilo nanpa; ona li musi a! ni la, mi wile kama jo e ilo nanpa.
