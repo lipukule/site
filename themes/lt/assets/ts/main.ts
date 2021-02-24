@@ -17,16 +17,66 @@ function toggleScheme(): void {
     applyScheme()
 }
 
+const matches = window.matchMedia("(prefers-color-scheme: dark)")
+let listener: (this: MediaQueryList, ev: MediaQueryListEvent) => any
+
+function setTelegramCommentsColor(mode: "walo" | "pimeja" | null): void {
+    const apply = (dark: boolean) => {
+        const frame = document.querySelector("iframe")
+        if (frame != null) {
+            frame.remove()
+        }
+
+        const it = document.querySelector("#comments-slot script")
+        if (it != null) {
+            it.remove()
+        }
+
+        const elm = document.querySelector("#comments-slot")
+        let script = document.createElement("script") as HTMLScriptElement
+        script.src = "https://comments.app/js/widget.js?3"
+        script.dataset["dark"] = dark ? "1" : "0"
+        script.setAttribute("data-comments-app-website", "MRjDiWij")
+        script.dataset["limit"] = "10"
+        script.dataset["dislikes"] = "1"
+        script.dataset["outlined"] = "1"
+        script.dataset["colorful"] = "1"
+        elm.appendChild(script)
+    }
+
+    if (listener != null) {
+        matches.removeListener(listener)
+        listener = null
+    }
+
+    switch (mode) {
+    case "walo":
+    case "pimeja":
+        apply(mode == "pimeja")
+        break
+    case null:
+        const lis = (ev: MediaQueryListEvent): any => {
+            apply(ev.matches)
+        }
+        matches.addListener(lis)
+        apply(matches.matches)
+        break
+    }
+}
+
 function applyScheme(): void {
     switch (localStorage.getItem("nasin-lukin")) {
     case "walo":
-        (document.querySelector(":root") as HTMLElement).setAttribute("data-nasin-lukin", "walo")
+        (document.querySelector(":root") as HTMLElement).setAttribute("data-nasin-lukin", "walo");
+        setTelegramCommentsColor("walo")
         break;
     case "pimeja":
-        (document.querySelector(":root") as HTMLElement).setAttribute("data-nasin-lukin", "pimeja")
+        (document.querySelector(":root") as HTMLElement).setAttribute("data-nasin-lukin", "pimeja");
+        setTelegramCommentsColor("pimeja")
         break;
     default:
-        (document.querySelector(":root") as HTMLElement).setAttribute("data-nasin-lukin", "ala")
+        (document.querySelector(":root") as HTMLElement).setAttribute("data-nasin-lukin", "ala");
+        setTelegramCommentsColor(null)
         break;
     }
 }

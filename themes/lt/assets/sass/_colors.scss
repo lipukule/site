@@ -26,10 +26,10 @@
 }
 
 @mixin pimeja {
-    --header: #141414;
+    --header: rgba(20, 20, 20, 0.5);
     --on-header: #ffffff;
 
-    --body: #1F1F1F;
+    --body: #15202b;
     --on-body: #eff0f1;
     --chip: rgba(18, 18, 18, 0.2);
 
