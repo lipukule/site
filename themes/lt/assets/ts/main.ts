@@ -33,6 +33,10 @@ function setTelegramCommentsColor(mode: "walo" | "pimeja" | null): void {
         }
 
         const elm = document.querySelector("#comments-slot")
+        if (elm == null) {
+            return
+        }
+
         let script = document.createElement("script") as HTMLScriptElement
         script.src = "https://comments.app/js/widget.js?3"
         script.dataset["dark"] = dark ? "1" : "0"
