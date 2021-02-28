@@ -1,7 +1,7 @@
 ---
 title: waso kule pi tawa mute
 janpali:
-- jan Kuli
+- jan Keli
 date: '2021-02-28'
 poki:
   - toki musi
