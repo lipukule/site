@@ -69,7 +69,7 @@ module.exports = function(grunt) {
 
             const l = l => ('0' + l).slice(-2)
 
-            href = href.replace("/post/", `/post/${d.getFullYear()}/${l(d.getMonth()+1)}/${l(d.getDate()+1)}/`)
+            href = href.replace("/post/", `/post/${d.getFullYear()}/${l(d.getUTCMonth()+1)}/${l(d.getUTCDate())}/`)
 
             let split = href.split('/')
             split.pop()
