@@ -10,7 +10,7 @@ poki:
 kule: musi
 ---
 
-![kijietesantakalu tu](/images/kijetesantakalu-tu.jpg)
+![kijietesantakalu tu](/images/kijetesantakalu-tu.png)
 
 *SITELEN NANPA WAN: kijetesantakalu tu li lon poka supa. lipu pu li lon sewi supa. kijetesantakalu nanpa wan li toki e ni tawa kijetesantakalu nanpa tu: "lipu pu li pu ala pu?"*  
 *SITELEN NANPA TU: kijetesantakalu nanpa tu li toki e ni: "lipu pu la lipu pu li pu ala. sina pali e ijo kepeken lipu pu la ona taso li pu"*  
