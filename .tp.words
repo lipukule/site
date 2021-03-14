@@ -195,13 +195,13 @@ wekama
 wile
 yupekosi
 # metadata
-title
 date
-thumbnail
-janpali
 images
+janpali
 jpg
 png
+thumbnail
+title
 # content/tpo/post/0_lipusin.md
 Ana
 # content/tpo/post/2_omekapo.md
@@ -211,20 +211,9 @@ Teka
 Texas
 Tonyu
 # content/tpo/post/3_kulupupalipona.md
-add
-bash
-exists
-flatpak
-if
 Inli
-install
 Linu
 Linux
-ltm
-not
-palipona
-remote
-sonaijo
 # content/tpo/post/5_monsutatesu.md
 fear
 Likipi
@@ -243,7 +232,6 @@ Arizona
 Aspersions
 Atawan
 biosphere
-Biosphere
 Colin
 Darthmouth
 Facts
@@ -311,7 +299,6 @@ Sonko
 sowe
 Sowejo
 sowejoki
-Sowejoki
 sun
 tawapa
 teko
@@ -332,19 +319,13 @@ wo
 wonderland
 wu
 # content/tpo/post/11_pali kulupu_ toki forth pi jan Eris.md
-cpp
 eris
-Eris
 forth
-Forth
 functions
-gforth
-jonesforth
 nnn
 nnnn
 operators
 pensive
-pforth
 print
 # content/tpo/post/12_isipin.md
 amin
@@ -370,7 +351,6 @@ Faster
 Grey
 Jawapa
 Jpatokal
-lawapimasetona
 Lighting
 Matono
 McDonalds
@@ -381,10 +361,7 @@ Sedona
 Seth
 Setona
 Stricter
-Sun
 Yavapai
-# content/tpo/post/16_lenkule.md
-lenkule
 # content/tpo/post/18_pilinmitawailonanpa.md
 AAA
 Enkan
@@ -398,7 +375,6 @@ Keli
 # content/tpo/post/21_nasinkulupu.md
 Aponi
 # content/tpo/post/23_kijetesantakalutu.md
-kijietesantakalu
 lipamanka
 Wija
 # content/tpo/post/27_jan pi moli ala.md
@@ -423,4 +399,3 @@ Makalesi
 Maku
 music
 Olopa
-olukinalaemonsi

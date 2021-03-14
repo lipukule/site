@@ -21,7 +21,7 @@ jobs:
       - name: Check spelling
         run: |
           for POST in content/tpo/post/*.md; do
-            LIST=$(cat "$POST" | aspell list -d ./tp | sort | uniq)
+            LIST=$(cat "$POST" | aspell list --mode=markdown -d ./tp | sort | uniq)
             if [ -n "$LIST" ]; then
               echo "# $POST"
               echo "$LIST"
