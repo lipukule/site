@@ -12,8 +12,6 @@ kule: musi
 ---
 **suli:** nimi musi ni li monsuta lili. ni li ike tawa sina la o lukin ala e ona.
 
-![o lukin ala e monsi](/images/olukinalaemonsi.jpg)
-
 tenpo pini mute la, kulupu li lon. kulupu ni li lili mute. jan lawa pi kulupu li jan Makalesi. ona li sona mute li lawa pona e kulupu. jan olin ona en ona li jo e jan lili wan. jan lili li jan Maku. ona li wile sona e ale li toki tawa jan ale. tenpo ale la, jan Maku li toki e ni: "ni li seme? tan seme la ni li lon? ma seme la ni li kama?"
 
 mama pi jan Maku li sona ala e ijo la jan Maku li tawa tomo pi jan Olopa. tomo ona li lon poka pi ma kasi suli. jan Maku li pilin ike tan ma kasi suli. taso, jan Olopa li pona mute tawa ona. jan Olopa li jo e linja pi pimeja walo. ona li sona e ijo nasa mute. jan Maku li toki tawa jan Olopa la jan Olopa li pana e sona pi ijo nasa tawa ona. ni li pona tawa jan Maku. ona li wile sona e ijo nasa ale.
