@@ -1,5 +1,5 @@
 ---
-title: o lukn ala e mons
+title: o lukin ala e monsi
 janpali:
   - jan Juli
 date: '2021-03-14'
@@ -7,7 +7,7 @@ poki:
   - toki musi
   - pali musi
   - monsuta
-kule: music
+kule: musi
 ---
 **suli:** nimi musi ni li monsuta lili. ni li ike tawa sina la o lukin ala e ona.
 
