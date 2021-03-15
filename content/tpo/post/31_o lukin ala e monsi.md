@@ -7,6 +7,7 @@ poki:
   - toki musi
   - pali musi
   - monsuta
+thumbnail: "/images/olukinalaemonsi.jpg"
 kule: musi
 ---
 **suli:** nimi musi ni li monsuta lili. ni li ike tawa sina la o lukin ala e ona.
