@@ -2,6 +2,7 @@
 title: o lukin ala e monsi
 janpali:
   - jan Juli
+  - jan Nijo
 date: '2021-03-14'
 poki:
   - toki musi
@@ -22,6 +23,8 @@ jan Maku li tawa tan tomo. ona li toki insa. monsuta li seme? tan seme la mama p
 
 tenpo mute la, ona li lon poka pi tomo pi jan Olopa. jan Maku li tawa insa. jan Maku li toki tawa jan Olopa: "jan Olopa o, mi ken ala ken toki tawa sina tan nimi nasa?" jan Olopa li lukin e jan Maku li toki: "jan lili Maku o, sina ken toki tawa mi lon tenpo ale tan ijo ale!" ni li pona mute tawa jan Maku. tan ni la, ona li toki: "jan Olopa o, sina sona ala sona e nimi 'monsuta'? mama mi li wile ala toki e 'monsuta' a..." lukin pi jan Olopa li kama suli mute. ona li toki kepeken kalama lili: "jan Maku o, sina kute e nimi ni lon seme? jan pi nanpa lili li sona e ni!"
 
-jan Maku li toki insa e ni: 'mi sona ala. mi kute e monsuta lon seme?' tenpo ni la, jan Maku li pilin nasa. selo ona li pilin lete. jan Olopa li toki e ni: "jan Maku o kute tawa mi a! jan ale li pilin ike tan nimi ni. sina lukin nasa tan sama. sina pilin seme?" selo pi jan Maku li pana e telo lete.  ona li wile taso tawa tan tomo. taso, jan Olopa li jo e luka ona li toki: "jan Maku o! sina o toki ala e nimi! sina o toki insa ala e nimi! tenpo kama la, sina tawa tomo sina la o lukin ala e ma kasi suli! ma kasi ni li pana e pilin nasa tawa sina, anu seme?" jan Maku li pilin ike mute lon tenpo ni. ona li toki: "tenpo ni la, mi wile ala sona e monsuta!" jan Olopa li toki wawa: "o toki ala e nimi! ... tenpo seme li lon? suno li pini lon tenpo seme?" ona tu li lukin e sewi tan
+jan Maku li toki insa e ni: 'mi sona ala. mi kute e monsuta lon seme?' tenpo ni la, jan Maku li pilin nasa. selo ona li pilin lete. jan Olopa li toki e ni: "jan Maku o kute tawa mi a! jan ale li pilin ike tan nimi ni. sina lukin nasa tan sama. sina pilin seme?" selo pi jan Maku li pana e telo lete.  ona li wile taso tawa tan tomo. taso, jan Olopa li jo e luka ona li toki: "jan Maku o! sina o toki ala e nimi! sina o toki insa ala e nimi! tenpo kama la, sina tawa tomo sina la o lukin ala e ma kasi suli! ma kasi ni li pana e pilin nasa tawa sina, anu seme?" jan Maku li pilin ike mute lon tenpo ni. ona li toki: "tenpo ni la, mi wile ala sona e monsuta!" jan Olopa li toki wawa: "o toki ala e nimi! ... tenpo seme li lon? suno li pini lon tenpo seme?" ona tu li lukin e sewi tan lupa. suno li anpa lon poka ma.
 
 tenpo pimeja li kama la, ona tu li kute e kalama nasa tan ma kasi. ona li kute sama e nimi. ona li kute e ni: "a a a! o lukin ala e monsi!"
+
+![o lukin ala e monsi](/images/olukinalaemonsi.jpg)
