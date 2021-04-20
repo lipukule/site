@@ -8,11 +8,8 @@ poki:
   - toki musi
   - pali musi
   - monsuta
-<<<<<<< Updated upstream
-thumbnail: "/images/olukinalaemonsi.jpg"
-=======
->>>>>>> Stashed changes
 kule: musi
+thumbnail: "/images/olukinalaemonsi.jpg"
 ---
 **suli:** nimi musi ni li monsuta lili. ni li ike tawa sina la o lukin ala e ona.
 
