@@ -26,7 +26,7 @@ jan Ko li pana e kon pi nimi ni tawa jan ale. jan mute li kama kepeken ona! jan 
 
 ni la, jan mute li kepeken nimi 'isipin' a! taso awen la, nimi 'isipin' li ike tawa jan ante  tan ni:
  - kalama pi nimi 'isipin' en lukin pi nimi 'isipin' li nasa lili tawa nimi ante pi toki pona...
- - nasin pi nimi 'isipin' li lanpan tan toki Inli. nasin isipin li ijo mute, li ijo wan taso ala. ni la, o kulupu ala e kon mute tawa nimi wan!
+ - nasin pi nimi 'isipin' li {{< sonalili "lanpan" >}} tan toki Inli. nasin isipin li ijo mute, li ijo wan taso ala. ni la, o kulupu ala e kon mute tawa nimi wan!
  - 'isipin' li nimi pi pu ala. jan mute la, ni li suli: nimi pi kon 'isipin' li lon ala pu. ni li nasin pi toki pona - jan li ante e ona la, ni li ante li nasa tawa nasin pi toki pona.
 
 ni la, jan kepeken li awen toki e pona pi nimi 'isipin'. jan pi kepeken ala li awen toki e ike pi nimi 'isipin'. lon tenpo open pi nimi 'isipin' la, jan mute li toki mute e pona ona e ike ona! tenpo ale la, jan li kepeken 'isipin' lon toki ona la, toki suli pi utala lili li kama lon.
