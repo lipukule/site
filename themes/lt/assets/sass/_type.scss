@@ -87,6 +87,10 @@
     }
 }
 
+.nobullets ul li, .nobullets ol li {
+    list-style-type: none;
+}
+
 address {
     display: inline;
 }

@@ -20,63 +20,40 @@ nimi pi sitelen ni li “sike lili laso walo” (“the Pale Blue Dot”). jan S
 e suli pi sitelen ni. tenpo sike 1994 la jan Sekan li toki e ni lon lipu ona pi nimi sama
 (Pale Blue Dot: A Vision of the Human Future in Space, p. 6):
 
-o lukin sin e sike lili ni. ona li ma ni. ona li ma pi mi ale. ona li mi ale.
+<div class="nobullets">
+<ul>
+  <li>o lukin sin e sike lili ni. ona li ma ni. ona li ma pi mi ale. ona li mi ale.</li>
+  <li>lon ona la jan pona sina ale</li>
+  <li>en jan ale pi sona sina</li>
+  <li>en jan ale lon kulupu sina</li>
+  <li>en jan lon ale li lon. <br> pilin pona jan ale</li>
+  <li>en pilin ike jan ale</li>
+  <li>en nasin sewi mute</li>
+  <li>en nasin wile mute</li>
+  <li>en nasin esun mute</li>
+  <li>en jan alasa ale</li>
+  <li>en jan wawa ale</li>
+  <li>en jan ale pi wawa ala</li>
+  <li>en jan ale pi mama kulupu</li>
+  <li>en jan ale pi pakala kulupu</li>
+  <li>en jan lawa ale</li>
+  <li>en jan anpa ale</li>
+  <li>en jan tu ale pi olin sin</li>
+  <li>en mama ale pi jan lili</li>
+  <li>en jan lili wile ale</li>
+  <li>en mama ale pi ilo sin</li>
+  <li>en jan alasa ale pi ma sin</li>
+  <li>en jan ale pi pana nasin</li>
+  <li>en jan lawa ike ale</li>
+  <li>en jan ale lon sona kulupu suli</li>
+  <li>en jan lawa ale pi “wawa ale”</li>
+  <li>en jan ale pi pona sewi</li>
+  <li>en jan ale pi pakala ike</li>
+  <li>li lon wan lili pi ko kon lon linja suno.</li>
+</ul>
+</div>
 
-lon ona la jan pona sina ale
-
-en jan ale pi sona sina
-
-en jan ale lon kulupu sina
-
-en jan lon ale li lon.
-
-pilin pona jan ale
-
-en pilin ike jan ale
-
-en nasin sewi mute
-
-en nasin wile mute
-
-en nasin esun mute
-
-en jan alasa ale
-
-en jan wawa ale
-
-en jan ale pi wawa ala
-
-en jan ale pi mama kulupu
-
-en jan ale pi pakala kulupu
-
-en jan lawa ale
-
-en jan anpa ale
-
-en jan tu ale pi olin sin
-
-en mama ale pi jan lili
-
-en jan lili wile ale
-
-en mama ale pi ilo sin
-
-en jan alasa ale pi ma sin
-
-en jan ale pi pana nasin
-
-en jan lawa ike ale
-
-en jan ale lon sona kulupu suli
-
-en jan lawa ale pi “wawa ale”
-
-en jan ale pi pona sewi
-
-en jan ale pi pakala ike
-
-li lon wan lili pi ko kon lon linja suno.
+<div style="margin-left: 2rem">
 
 ale la ma jan li lili mute mute.
 o sitelen insa e ni: jan lawa utala mute li kama e nasin telo loje suli tan ni:
@@ -98,3 +75,5 @@ toki ni li lon: sona mun li weka e pilin suli li pona e jan. sitelen weka ni pi 
 mi li pana lukin e pakala pi pilin suli jan tawa mi ale. mi la ona li suli e ni: mi ale
 o pana e pona tawa jan ante, o awen e sike lili laso walo. ma mama la mi ale li
 sona e ona taso.
+
+</div>
