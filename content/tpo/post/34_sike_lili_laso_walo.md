@@ -8,6 +8,7 @@ poki:
   - ma
   - sewi laso
 kule: sona
+thumbnail: "/images/sikelililasowalo.jpg"
 ---
 
 tenpo sike 1990 la ilo Ojase nanpa wan (Voyager 1) li pali e sitelen ni tan wile pi jan Ka
