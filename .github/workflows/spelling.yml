@@ -1,0 +1,30 @@
+name: Check Spelling
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  spelling:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Install aspell
+        run: sudo apt install aspell
+
+      - uses: actions/checkout@v2
+        name: Checkout Site
+
+      - name: Build Dictionary
+        run: grep -v '^#' .tp.words | aspell --lang=en create master ./tp
+
+      - name: Check spelling
+        run: |
+          for POST in content/tpo/post/*.md; do
+            LIST=$(cat "$POST" | aspell list --mode=markdown -d ./tp | sort | uniq)
+            if [ -n "$LIST" ]; then
+              echo "# $POST"
+              echo "$LIST"
+              return 1
+            fi
+          done
