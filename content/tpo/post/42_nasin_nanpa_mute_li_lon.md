@@ -1,5 +1,5 @@
 ---
-title: nanpa ante kin
+title: nasin nanpa mute li lon
 janpali:
 - jan Kita
 date: '2021-09-21'
@@ -7,6 +7,8 @@ poki:
   - nasin toki pi toki pona
   - nasin nanpa
   - nanpa
+aliases:
+  - /post/2021/09/21/nanpa-ante-kin/
 kule: toki
 ---
 
