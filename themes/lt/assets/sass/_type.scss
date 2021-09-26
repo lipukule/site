@@ -94,3 +94,18 @@
 address {
     display: inline;
 }
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid var(--rim);
+}
+
+th {
+    font-weight: bold !important;
+    background-color: var(--rim);
+}
+
+table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
