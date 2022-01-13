@@ -26,6 +26,7 @@ collections:
       - label: "sitelen kule"
         name: "thumbnail"
         widget: "image"
+        required: false
       - label: "kule"
         name: "kule"
         widget: "select"
