@@ -1,6 +1,8 @@
 ---
 title: musi li weka lawa
 date: 2022-01-13T05:00:13.822Z
+janpali:
+  - waso Wilo
 poki:
   - musi
   - weka lawa
