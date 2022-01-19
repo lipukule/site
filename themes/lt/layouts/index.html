@@ -1,8 +1,8 @@
 {{ define "heading" }}
 
-<h2>
-    lipu sin
-</h2>
+<h1>
+    lipu sin pi <i>lipu kule</i>
+</h1>
 
 <p>
     ni li lipu sin pi lipu kule. o lukin e ona!
@@ -20,6 +20,6 @@
 
 {{ partial "pagelist.html" $paginator.Pages }}
 
-<nav>{{ template "_internal/pagination.html" . }}</nav>
+<nav style="margin-top: 3rem;">{{ template "_internal/pagination.html" . }}</nav>
 
 {{ end }}

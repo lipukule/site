@@ -23,6 +23,23 @@
     --lasewi: #76d0ff;
     --lasunu: #b3beff;
     --unu: #fbadff;
+
+    --tw-prose-body: #334155;
+    --tw-prose-headings: #0F172A;
+    --tw-prose-lead: #475569;
+    --tw-prose-links: var(--link);
+    --tw-prose-bold: #0F172A;
+    --tw-prose-counters: #64748B;
+    --tw-prose-bullets: #CBD5E1;
+    --tw-prose-hr: #E2E8F0;
+    --tw-prose-quotes: #0F172A;
+    --tw-prose-quote-borders: #E2E8F0;
+    --tw-prose-captions: #64748B;
+    --tw-prose-code: #0F172A;
+    --tw-prose-pre-code: #E2E8F0;
+    --tw-prose-pre-bg: #1E293B;
+    --tw-prose-th-borders: #CBD5E1;
+    --tw-prose-td-borders: #E2E8F0;
 }
 
 @mixin pimeja {
@@ -50,6 +67,23 @@
     --lasewi: #76d0ff;
     --lasunu: #b3beff;
     --unu: #fbadff;
+
+    --tw-prose-body: #CBD5E1;
+    --tw-prose-headings: #fff;
+    --tw-prose-lead: #94A3B8;
+    --tw-prose-links: var(--link);
+    --tw-prose-bold: #fff;
+    --tw-prose-counters: #94A3B8;
+    --tw-prose-bullets: #475569;
+    --tw-prose-hr: #334155;
+    --tw-prose-quotes: #F1F5F9;
+    --tw-prose-quote-borders: #334155;
+    --tw-prose-captions: #94A3B8;
+    --tw-prose-code: #fff;
+    --tw-prose-pre-code: #CBD5E1;
+    --tw-prose-pre-bg: rgba(0, 0, 0, 50%);
+    --tw-prose-th-borders: #475569;
+    --tw-prose-td-borders: #334155;
 }
 
 $colors: lojunu, loje, lojelo, jelo, graso, laso, blaso, lasewi, lasunu, unu;

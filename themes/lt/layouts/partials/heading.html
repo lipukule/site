@@ -1,8 +1,11 @@
-<h2>{{ .Title }}<br>
-    {{ with .Params.janpali }}
-        {{range . }}
-            <address class="lt-article-card-author">tan <a href="{{ relURL (print "/janpali/" . | urlize) }}" class="fg-link">{{ . }}&nbsp;</a></address>
-        {{ end }}
+<h2 style="margin-bottom: 0;">{{ .Title }}</h2>
+
+{{ with .Params.janpali }}
+    {{range . }}
+        <address class="lt-article-card-author">tan <a href="{{ relURL (print "/janpali/" . | urlize) }}" class="fg-link">{{ . }}&nbsp;</a></address>
     {{ end }}
-    <span class="lt-article-card-author" style="margin-left: 3rem;"> lipu ni li jo e nimi {{ .WordCount }}</span></h2>
-<br>
+{{ end }}
+
+<span class="lt-article-card-author" style="margin-left: 2rem;"> lipu ni li jo e nimi {{ .WordCount }}</span>
+
+<div style="margin-bottom: 1.125rem;"></div>

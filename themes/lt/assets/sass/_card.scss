@@ -85,7 +85,7 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
             margin-top: 0;
         }
 
-        &:not(:first-child) {
+        &:not(:nth-child(2)) {
             margin-top: 24px;
         }
 

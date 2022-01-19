@@ -8,7 +8,9 @@
 <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
 {{ end }}
 
+<div class="prose">
 {{ .Content }}
+</div>
 
 {{ if or (.NextInSection) (.PrevInSection) }}
 

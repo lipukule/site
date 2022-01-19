@@ -2,11 +2,7 @@
 
 {{ $s := site }}
 
-<div class="lt-card lt-article-card {{ with .Params.kule }} bg-{{ index $s.Data.poki . "kule" }} {{ end }}" onclick="location.href = {{ .RelPermalink }}" role="button">
-
-    {{ with .Params.thumbnail }}
-        <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" /></div>
-    {{ end }}
+<div class="lt-card lt-article-card {{ with .Params.kule }} bg-{{ index $s.Data.poki . "kule" }} {{ end }} prose prose-small" onclick="location.href = {{ .RelPermalink }}" role="button">
 
     <div class="len">
         <div>
@@ -21,24 +17,20 @@
         </div>
     </div>
 
-    <div class="lt-article-card-row">
-        <h3 class="lt-article-card-title">{{ .Title }}</h3>
-        <div class="lt-article-card-row-spacer"></div>
-        {{ with .Params.janpali }}
-        {{range first 2 . }}
-        <address class="lt-article-card-author"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">tan {{ . }}&nbsp;</a></address>{{ end }}
-        {{ end }}
-    </div>
+    {{ with .Params.thumbnail }}
+        <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" style="margin-top: 0; margin-bottom: 0;"/></div>
+    {{ end }}
 
-    <div class="lt-article-card-summary">
-        {{ $scratch := newScratch }}
-        {{ with .Description }}
-            {{ $scratch.Set "summary" (markdownify .) }}
-        {{ else }}
-            {{ $scratch.Set "summary" ((delimit (findRE "(<p.*?>(.|\n)*?</p>\\s*)+" .Content) "[&hellip;] ") | plainify | truncate (default 200 .Site.Params.summary_length) (default " &hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
-        {{ end }}
-        {{ $scratch.Get "summary" }}
-    </div>
+    <h2 class="lt-article-card-title" style="margin-bottom: 0.2em; margin-top: 0.2em;">{{ .Title }}</h2>
+
+    {{ with .Params.janpali }}
+    {{range first 2 . }}
+    <address class="lt-article-card-author"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">tan {{ . }}&nbsp;</a></address>{{ end }}
+    {{ end }}
+
+    <p>
+        {{ .Summary }}
+    </p>
 
     {{ with .Params.poki }}
     <div class="lt-article-card-row">
@@ -49,9 +41,5 @@
     </div>
     {{ end }}
 </div>
-
-<noscript>
-    <a href="{{ .RelPermalink }}">tawa lipu {{ .Title }}</a>
-</noscript>
 
 {{ end }}
