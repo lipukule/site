@@ -105,7 +105,7 @@ $colors: lojunu, loje, lojelo, jelo, graso, laso, blaso, lasewi, lasunu, unu;
         box-shadow: 0 0 40px var(--#{$color}) !important;
     }
     @media (prefers-color-scheme: dark) {
-        :root:not([data-nasin-lukin="walo"]).bg-#{$color} {
+        :root:not([data-nasin-lukin="walo"]) .bg-#{$color} {
             border: 3px solid var(--#{$color});
             box-shadow: 0 0 40px var(--#{$color}) !important;
         }
