@@ -28,7 +28,7 @@ o pilin e waso kepeken len pi moku telo. len li wile weka e telo tan waso, li po
 
 ### nanpa tu: namako e waso
 
-o namako walo e waso. mute pona li ni: namako li ken lukin ala. o len ala e waso kepeken namako. kin la, o namako pi lili ala e waso. meso li pona.
+o namako walo e waso. mute pona li ni: namako li ken lukin ala. o len ala e waso kepeken namako. kin la, o namako pi lili ala e waso.
 
 sina namako walo e waso la, o kepeken namako ante. ni li kule sina a! namako seli, namako puwa, namako kiwen, ale li pona.
 
@@ -44,7 +44,7 @@ o pana e telo tawa poki supa. o seli e poki supa. ona li kama kalama la ona li p
 
 o pana e waso tawa poki supa.
 
-o seli e sinpin sijelo tu e waso. sijelo waso li wile kule suno li wile walo.
+o seli e sinpin sijelo tu waso. sijelo waso li wile kule suno li wile walo.
 
 ona li kule pona la, o lili e seli. ni la, insa waso li kama seli. sijelo waso li kama seli pakala ala.
 
