@@ -40,7 +40,7 @@ sina awen la, sina ken seli e telo namako jelo.
 
 o pana e telo tawa poki supa. o seli e poki supa. ona li kama kalama la ona li pona tawa waso.
 
-### nanpa po: seli e waso
+### nanpa po: o seli e waso
 
 o pana e waso tawa poki supa.
 
