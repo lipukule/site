@@ -1,9 +1,9 @@
 baseURL = "https://lipukule.org/"
-languageCode = "tpo"
+languageCode = "tok"
 title = "lipu kule"
 theme = "lt"
 paginate = 6
-DefaultContentLanguage = "tpo"
+DefaultContentLanguage = "tok"
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -25,7 +25,7 @@ DefaultContentLanguage = "tpo"
     janpali = "janpali"
 
 [languages]
-    [languages.tpo]
-    contentDir = "content/tpo"
+    [languages.tok]
+    contentDir = "content/tok"
     languageName = "toki pona"
     weight = 1

@@ -1,7 +1,7 @@
 var yaml = require("yaml");
 var S = require("string");
 
-var CONTENT_PATH_PREFIX = "content/tpo";
+var CONTENT_PATH_PREFIX = "content/tok";
 
 module.exports = function(grunt) {
 
