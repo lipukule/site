@@ -33,3 +33,5 @@ akesi lili pi ante kule li kama tan seme? akesi mije en akesi meli li ken unpa. 
 akesi pi ante kule li ken mu. tenpo ni la sina sona.
 
 (jan Lilija li pali e sitelen lukin.)
+
+> jan pali pi lipu ni li wile e ni: lipu [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) li lawa e toki ni.
