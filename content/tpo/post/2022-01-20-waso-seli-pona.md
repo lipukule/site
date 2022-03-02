@@ -20,13 +20,13 @@ waso li moku pona tawa mi. ni la, mi pana e nasin seli waso tawa sina.
 
 ## nasin
 
-### nanpa wan: weka telo
+### nanpa wan: o weka e telo
 
 sina wile kule suno lon waso seli sina, o weka e telo tan ona! telo mute li lon la, ona li kama walo taso li lukin pona ala.
 
 o pilin e waso kepeken len pi moku telo. len li wile weka e telo tan waso, li pona e waso.
 
-### nanpa tu: namako e waso
+### nanpa tu: o namako e waso
 
 o namako walo e waso. mute pona li ni: namako li ken lukin ala. o len ala e waso kepeken namako. kin la, o namako pi lili ala e waso.
 
@@ -36,7 +36,7 @@ sina namako e waso la, o awen lon tenpo luka.
 
 sina awen la, sina ken seli e telo namako jelo.
 
-### nanpa tuli: seli e telo namako jelo
+### nanpa tuli: o seli e telo namako jelo
 
 o pana e telo tawa poki supa. o seli e poki supa. ona li kama kalama la ona li pona tawa waso.
 
