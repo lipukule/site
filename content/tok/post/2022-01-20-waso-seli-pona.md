@@ -1,6 +1,6 @@
 ---
 title: waso seli pona
-date: 2022-03-01T02:44:05.550Z
+date: 2022-03-01
 poki:
   - moku
   - moku waso
