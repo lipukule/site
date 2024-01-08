@@ -4,6 +4,7 @@ public_folder: "/images/uploads"
 backend:
   name: github
   repo: lipukule/site
+  branch: main
   open_authoring: true
   base_url: https://auth.lipukule.org
 # backend:
