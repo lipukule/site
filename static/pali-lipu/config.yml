@@ -2,11 +2,15 @@ publish_mode: editorial_workflow
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 backend:
-  name: git-gateway
-  branch: main
-  identity_url: "https://auth.lipukule.org/identity"
-  gateway_url:  "https://auth.lipukule.org/git"
-  site_domain:  "https://lipukule.org/"
+  name: github
+  repo: lipukule/site
+  open_authoring: true
+# backend:
+  # name: git-gateway
+  # branch: main
+  # identity_url: "https://auth.lipukule.org/identity"
+  # gateway_url:  "https://auth.lipukule.org/git"
+  # site_domain:  "https://lipukule.org/"
 collections:
   - name: "sitelen" # Used in routes, e.g., /admin/collections/blog
     label: "sitelen" # Used in the UI
