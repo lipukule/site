@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "sitelenselikiwenasuki";
+    src: url(/fonts/sitelenselikiwenasuki.eot);
+    src: url(/fonts/sitelenselikiwenasuki.ttf) format("truetype");
+}
+@font-face {
+    font-family: "sitelenselikiwenjuniko";
+    src: url(/fonts/sitelenselikiwenjuniko.eot);
+    src: url(/fonts/sitelenselikiwenjuniko.ttf) format("truetype");
+}
+.tp-ala {
+    font-family: "sitelenselikiwenjuniko";
+}
+.prose {
+    font-size: 2rem;
+    font-family: "sitelenselikiwenasuki";
+    h1 {
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+.lt-nav-footer {
+    .lt-footer-card {
+        font-family: "sitelenselikiwenasuki";
+    }
+}
+.lt-article-card {
+    .prose &-title {
+        font-size: 30pt;
+        font-family: "sitelenselikiwenasuki";
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    &-summary {
+        font-family: "sitelenselikiwenasuki";
+    }
+    &-author {
+        font-family: "sitelenselikiwenasuki";
+        font-size: 16pt;
+    }
+    &-chip {
+        font-family: "sitelenselikiwenasuki";
+    }
+}
+.lt-top-app-bar {
+    h1 {
+        font-family: "sitelenselikiwenasuki";
+    }
+}

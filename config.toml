@@ -30,6 +30,11 @@ DefaultContentLanguage = "tok"
     languageName = "toki pona"
     weight = 1
 
+    [languages.tok_sp]
+    contentDir = "content/tok_sp"
+    languageName = "toki pona pi sitelen pona"
+    weight = 2
+
 [security]
 	[security.exec]
 		allow = ['^go$', '^npx$', '^postcss$', '^babel$']

@@ -10,9 +10,8 @@ kule: toki
 ---
 
 nimi suli ni li powe lili. toki luka li ken sin li ken toki pali. en
-**luka pona** en **luka Kesuno** (*Gestun*o) en **luka Nawi** (*Na\'vi
-Sign Language*) li sin li toki pali. kin la, en nasin toki Makaton en
-nasin luka pi toki uta (toki Inli luka - *SEE*, toki pona luka pu) li
+**luka pona** en **luka KESUNO** ({{< lasina "Gestuno" >}}) en **luka NAWI** ({{< lasina "Na'vi Sign Language">}}) li sin li toki pali. kin la, en nasin toki Makaton en
+nasin luka pi toki uta (toki Inli luka - {{< lasina "SEE" >}}, toki pona luka pu) li
 sin li tan pali jan li toki ala. jan li pali e ona ale.
 
 taso toki luka pi ma ante mute li toki pali ala tan ni: ona li kama tan
@@ -33,7 +32,7 @@ sama li ken ante mute a.
 
 jan li wile sona e tan la, o lukin e tenpo pini pi toki luka.
 
-tenpo pini mute la, ma Elinika la, **jan sona Sokate** (Socrates) li
+tenpo pini mute la, ma ELINKA la, **jan sona SOKATE** ({{< lasina "Socrates" >}}) li
 toki e ni: *\"jan pi kute ala li toki kepeken luka. ona li sona a li ken
 jasima e ijo kepeken luka. ona li wile toki e soweli la, ona li tawa e
 luka ona sama nasin soweli la, jasima e kon soweli\"*. taso ona li toki
@@ -42,7 +41,7 @@ lon.
 
 taso - jan sona li sona mute e toki luka pi tenpo ante pi ma ante.
 
-tenpo sike *1760* la, **jan Lepe** (*Abbé Charles-Michel de l\'Épée*) li
+tenpo sike *1760* la, **jan LEPE** ({{< lasina "Abbé Charles-Michel de l'Épée" >}} li
 lon ma tomo Pali. ona li jan pi mani mute li jan kute. ona li lon ma pi
 mani lili lon ma tomo Pali la, meli tu pi mama sama li lon. ona tu li
 jan pi kute ala li toki luka. toki luka ni li toki luka pi tenpo pini pi
@@ -55,21 +54,21 @@ kepeken ona. taso ona li ike mute tawa jan pi kute ala la, jan pi kute
 ala li weka e nasin luka ni li toki kepeken toki luka ona tan kulupu
 ona.
 
-toki luka ona li kama **luka Kanse** (*LSF*) li toki luka pi ma Kanse.
+toki luka ona li kama **luka KANSE** (*LSF*) li toki luka pi ma Kanse.
 
-tenpo sike *1815* la, **jan Kalate** (*Thomas Hopkins Gallaudet*) li lon
-ma Mewika li pana sona tawa meli lili wan pi kute ala. ona li wile sona
+tenpo sike *1815* la, **jan KALATE** ({{< lasina "Thomas Hopkins Gallaudet" >}}) li lon
+ma MEWIKA li pana sona tawa meli lili wan pi kute ala. ona li wile sona
 e nasin pona pi pana sona tawa jan pi kute ala. ona li kama tawa ma Inli
 li tawa tomo sona. tomo sona ni li pana e sona tawa jan lili pi kute
 ala. taso ona li utala la, tomo sona li weka e jan Kalate la, ona li
 tawa ma tomo Pali. ona li kama sona e luka Kanse e nasin pi pana sona li
-tawa ma Mewika. en ni en luka Mata Winja (*Martha\'s Vineyard Sign
-Language*) li kama wan li kama **luka Mewika** (*ASL*). ona li pali e
-tomo sona Kalate li pana sona tawa jan lili pi kute ala lon ma Mewika.
-tenpo lon la, jan li kute ala lon ma Mewika lon ma Kanata li toki luka
-Mewika.
+tawa ma MEWIKA. en ni en luka Mata Winja (*Martha\'s Vineyard Sign
+Language*) li kama wan li kama **luka MEWIKA** (*ASL*). ona li pali e
+tomo sona Kalate li pana sona tawa jan lili pi kute ala lon ma MEWIKA.
+tenpo lon la, jan li kute ala lon ma MEWIKA lon ma Kanata li toki luka
+MEWIKA.
 
-tenpo sike *1880* la, **ma tomo Milan** la, jan pi pana sona li kulupu
+tenpo sike *1880* la, **ma tomo MILAN** la, jan pi pana sona li kulupu
 li toki e ni: *\"jan pi kute ala o kama ala e sona pi toki luka tan ni:
 ona li pake e sona pi toki uta. mi ale o pana e toki uta tawa ona. ni li
 lawa sin! o kute!\"* ona mute mute mute li ken kute ale. ona li pali e
@@ -77,23 +76,23 @@ lawa sin! o kute!\"* ona mute mute mute li ken kute ale. ona li pali e
 
 jan li pilin e ni lon tenpo pini pi kulupu ni. taso ni li lawa e jan. ni
 la, tomo sona mute li pana ala e toki luka tawa jan lili pi kute ala. ni
-li ike tawa ona mute. **jan Be** (*Alexander Graham Bell*) li mama pi
+li ike tawa ona mute. **jan BE** ({{< lasina "Alexander Graham Bell" >}}) li mama pi
 ilo toki li jan suli lon kulupu ni li toki sama la, ona li ike tawa
 kulupu pi kute ala.
 
-tomo mute pi pana sona pi jan lili pi kute ala lon ma Juke la, nasin pi
+tomo mute pi pana sona pi jan lili pi kute ala lon ma JUKE la, nasin pi
 pana sona pi uta taso li lon. taso jan lili suli li pana sona e **luka
-Juke** (*BSL*) tawa jan lili lili. luka Juke li awen lon. en luka Juke
-en juke Mewika li ante mute a. kulupu ona li ante.
+JUKE** (*BSL*) tawa jan lili lili. luka JUKE li awen lon. en luka JUKE
+en JUKE MEWIKA li ante mute a. kulupu ona li ante.
 
 ma mute la, toki luka li ante a. taso ona li ken lon kulupu toki. luka
-Nijon (*日本手話*) li mama e luka Anku (*한국 수화 언어*,
+NIJON (*日本手話*) li mama e luka Anku (*한국 수화 언어*,
 *韓國手話言語)* luka Tawan (*台灣手語*). en luka Tawan en luka Sonko
 (中国手语) li ante a li lon kulupu toki ante.
 
-kin la, tenpo pini la, ma Nikulaka (*Nicuragua*) la, toki luka li lon
+kin la, tenpo pini la, ma Nikulaka ({{< lasina "Nicuragua" >}}) la, toki luka li lon
 ala. jan li pali e tomo sona pi jan lili pi kute ala la, jan lili mute
-pi kute ala li tawa ona. ona mute li toki li mama e **luka Nikulaka**.
+pi kute ala li tawa ona. ona mute li toki li mama e **luka NIKULAKA**.
 ona li sin. taso ona li toki pali ala tan ni: jan ala li pali ala e ona.
 jan lili li toki lon kulupu ona li mama e ona.
 

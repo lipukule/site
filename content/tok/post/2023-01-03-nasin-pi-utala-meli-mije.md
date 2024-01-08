@@ -15,11 +15,11 @@ tenpo li kama li pini la, kulupu li kama ante. jan mute li wile e ni: kulupu li 
 
 tenpo lon la, jan mute li alasa weka e nasin ni. taso - en nasin li awen lon lawa ona, lon pali ona, lon toki ona. tenpo pini la, ona li lon lawa pi jan ale a. taso ona li seme?
 
-toki Inli la, ona li nimi ‘Oppositional Sexism’. ni li pana ala e sona tawa sina la, o ike ala pilin. jan mute li sona ala e ona.
+toki Inli la, ona li nimi {{< lasina "Oppositional Sexism" >}}. ni li pana ala e sona tawa sina la, o ike ala pilin. jan mute li sona ala e ona.
 
 nasin pi utala meli mije la, 'en meli taso en mije taso li lon. ona li lon tenpo ale. en sijelo pi ona tu en pilin pi ona tu en nasin pi ona tu li ante. jan li ken ala meli mije li ken ala mije meli li ken ala tonsi. en nasin mije en nasin meli li ken ala sama. ona tu li ante ale li utala.'
 
-jan Julija-Sewano (Julia Serano) li toki mute li sitelen mute e ni. ona li meli li tonsi li ken olin e meli e mije e tonsi. ona li sitelen e lipu Wipinki (*Whipping Girl*). lipu ona li toki nanpa wan e nasin pi utala meli mije li nimi e ona.
+jan Julija-Sewano ({{< lasina "Julia Serano" >}}) li toki mute li sitelen mute e ni. ona li meli li tonsi li ken olin e meli e mije e tonsi. ona li sitelen e lipu Wipinki ({{< lasina "Whipping Girl" >}}). lipu ona li toki nanpa wan e nasin pi utala meli mije li nimi e ona.
 
 nasin pi utala meli mije li mama e jaki ante mute.
 
@@ -41,5 +41,6 @@ o utala wan.
 
 tan jan Olipija [o. li: pi: a.]
 
-lipu Wipinki (toki Inli): https://en.wikipedia.org/wiki/Whipping_Girl 
+lipu [{{< lasina "Wipinki" >}}] (toki Inli): https://en.wikipedia.org/wiki/Whipping_Girl
+
 nasin pi utala meli mije (toki Inli): https://www.juliaserano.com/terminology.html#O 

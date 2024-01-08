@@ -8,7 +8,14 @@
     {{ $sass := resources.Get "sass/main.scss" }}
     {{ $style := $sass | resources.ToCSS | fingerprint }}
 
+    {{ $sassSP := resources.Get "sass/sitelen_pona.scss" }}
+    {{ $styleSP := $sassSP | resources.ToCSS | fingerprint }}
+
     <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
+
+    {{ if eq $.Lang "tok_sp" }}
+        <link rel="stylesheet" href="{{ $styleSP.Permalink }}" integrity="{{ $styleSP.Data.Integrity }}" />
+    {{ end }}
 
     {{ $typescript := resources.Get "ts/main.ts" | babel }}
     {{ $javascript := slice $typescript | resources.Concat "ts/main.js" }}

@@ -33,13 +33,15 @@ noscript + .lt-article-card, .lt-article-card + .lt-article-card {
     &-title, &-author {
         vertical-align: bottom;
     }
-    &-title {
+    .prose &-title {
         font-family: Raleway;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0px;
+        margin-bottom: 0.2em;
+        margin-top: 0.2em;
     }
     &-summary {
         font-family: Radley;

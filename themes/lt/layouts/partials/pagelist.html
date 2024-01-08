@@ -21,7 +21,7 @@
         <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" style="margin-top: 0; margin-bottom: 0;"/></div>
     {{ end }}
 
-    <h2 class="lt-article-card-title" style="margin-bottom: 0.2em; margin-top: 0.2em;">{{ .Title }}</h2>
+    <h2 class="lt-article-card-title">{{ .Title }}</h2>
 
     {{ with .Params.janpali }}
     {{range first 2 . }}
