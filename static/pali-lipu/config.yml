@@ -5,6 +5,7 @@ backend:
   name: github
   repo: lipukule/site
   open_authoring: true
+  base_url: https://auth.lipukule.org
 # backend:
   # name: git-gateway
   # branch: main
