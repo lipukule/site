@@ -17,13 +17,13 @@ ante = "󱤆"
 [header]
 lipu-kule = "󱤪󱦖󱤞"
 ilo-alasa = "󱤎󱦖󱤃"
-o-kama-sitelen = "󱥄󱤖󱥠󱤉󱤪󱦖󱤞!"
+o-kama-sitelen = "󱥄󱤖󱥠󱤉󱤪󱦖󱤞"
 
 [footer]
-discord = "󱤟Siko󱥍󱦗󱤪󱦖󱤞󱦘"
+discord = "󱤟󱦐󱥜󱦜󱤜󱦜󱦑󱥍󱦗󱤪󱦖󱤞󱦘"
 telegram = "󱤟Telekan󱥍󱦗󱤪󱦖󱤞󱦘"
 license = "󱤪󱤧󱥬󱤆󱤂󱤡󱦝 󱤪CC-BY-SA-4.0󱤧󱤤󱤉󱥆"
-toki-pona = "󱥬󱥔󱤧󱥧󱤑Sonja"
+toki-pona = "󱥬󱥔󱤧󱥧󱤑󱦐󱥡󱥅󱤾󱥿󱤃󱦑"
 
 [list]
 jan-pali = "󱤪󱥧{{ . }}"
@@ -97,7 +97,7 @@ nanpa-lipu = "󱤪{{ . }}󱤧󱤬"
 "jan Olipija" = "󱤑Olipija"
 "jan Epen" = "󱤑Epen"
 "jan Peton" = "󱤑Peton"
-"jan Sonja" = "󱤑Sonja"
+"jan Sonja" = "󱤑󱦐󱥡󱥅󱤾󱥿󱤃󱦑"
 "waso Wilo" = "󱥴Wilo"
 "jan Kita" = "󱤑Kita"
 "jan Wija" = "󱤑Wija"
@@ -110,4 +110,4 @@ nanpa-lipu = "󱤪{{ . }}󱤧󱤬"
 "jan pali pi lipu kule" = "󱤑󱥉󱥍󱦗󱤪󱤞󱦘"
 
 [lanpan]
-other = "weka e ijo tan ante en kama jo e ona kepeken wawa"
+other = "󱥶󱤉󱤌󱥧󱤆󱤊󱤖󱤓󱤉󱥆󱤙󱥵"
