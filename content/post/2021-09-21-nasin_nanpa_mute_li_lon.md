@@ -1,6 +1,6 @@
 ---
 title: nasin nanpa mute li lon
-date: 2021-09-21
+date: '2021-09-21'
 poki:
   - nasin toki pi toki pona
   - nasin nanpa
