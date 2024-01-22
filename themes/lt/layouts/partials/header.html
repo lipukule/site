@@ -8,19 +8,10 @@
         window.location.href = searchIndex.search(document.getElementById("search").value)[0].ref
     }
 </script>
-<header class="lt-top-app-bar">
-    <span class="header-grid">
-        <span>
-            <a href="/"><h1>lipu kule</h1></a>
-            <a onclick="opensearch()"><h1>ilo alasa</h1></a>
-        </span>
-
-        <span>
-            {{ range $k := (site).Data.ijo }}
-                <!-- <a href="/kule/{{ $k }}"><h1 class="fg-{{ index (site).Data.poki $k "kule" }}">{{ $k }}</h1> </a> -->
-            {{ end }}
-        </span>
-
-        <a href="/mi/o-kama-sitelen-e-lipu-kule/"><h1>o kama sitelen e <em>lipu kule!</em></h1></a>
-    </span>
+<header class="flex flex-row justify-between p-6">
+    <div class="flex flex-row space-x-4">
+        <a href="/"><h1>lipu kule</h1></a>
+        <a onclick="opensearch()"><h1>ilo alasa</h1></a>
+    </div>
+    <a href="/mi/o-kama-sitelen-e-lipu-kule/"><h1>o kama sitelen e <em>lipu kule!</em></h1></a>
 </header>

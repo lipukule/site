@@ -1,15 +1,48 @@
 <!DOCTYPE html>
+{{/*
+
+to-lojunu
+to-loje
+to-lojelo
+to-jelo
+to-graso
+to-laso
+to-blaso
+to-lasewi
+to-lasunu
+to-unu
+
+dark:to-lojunu/25
+dark:to-loje/25
+dark:to-lojelo/25
+dark:to-jelo/25
+dark:to-graso/25
+dark:to-laso/25
+dark:to-blaso/25
+dark:to-lasewi/25
+dark:to-lasunu/25
+dark:to-unu/25
+
+*/}}
 <html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
-    <body>
+    {{ $s := site }}
+    {{ with .Params.kule }}
+    <body class="bg-cream from-cream via-cream to-{{ index $s.Data.poki . "kule" }} bg-gradient-to-tr bg-fixed
+                 dark:bg-dark-cream dark:from-dark-cream dark:via-dark-cream dark:to-{{ index $s.Data.poki . "kule" }}/25 dark:text-white">
+    {{ else }}
+    <body class="bg-cream from-cream-orange via-cream to-cream-red bg-gradient-to-tr bg-fixed
+                 dark:bg-dark-cream dark:from-dark-cream-orange dark:via-dark-cream dark:to-dark-cream-red
+                 dark:text-white">
+    {{ end }}
         {{- partial "header.html" . -}}
-        <div class="lt-content-wrapper">
-            <div class="lt-content">
+        <div>
+            <div>
                 <form style="display: none;" id="iloalasa" onsubmit="alasa(); return false">
                     <input type="text" id="search"></textarea>
                     <button type="submit">o alasa</button>
                 </form>
-                <header class="lt-header prose">
+                <header>
                     {{- block "heading" . }}{{- end }}
                 </header>
                 <main>

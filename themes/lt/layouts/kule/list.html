@@ -1,44 +1,40 @@
 {{ define "heading" }}
-
 <div class="flex justify-center">
-    <div class="max-w-screen-2xl px-8 w-full">
+    <div class="max-w-screen-2xl px-8 pb-4 w-full">
         <div class="prose dark:prose-invert">
-            <h1 class="mb-0">
-                lipu sin pi <i>lipu kule</i>
-            </h1>
-
-            <p class="mt-0">
-                ni li lipu sin pi lipu kule. o lukin e ona!
-            </p>
+            <h1 class="mb-0">lipu {{ .Title }}</h1>
+            <span class="mt-0">lipu {{ len .Pages }} li lon</span>
+			{{ .Content }}
         </div>
+
+        {{ $ijo := .Params.title }}
 
         <div class="flex flex-row gap-2 pb-4">
             {{ range $k := (site).Data.ijo }}
                 {{ $kule := index (site).Data.poki $k "kule" }}
+                {{ if eq $ijo $k }}
+                <a href="/kule/{{ $k }}" class="rounded-full px-2 py-1 border-2 border-{{ $kule }} bg-{{ $kule }}">{{ $k }}</a>
+                {{ else }}
                 <a href="/kule/{{ $k }}" class="rounded-full px-2 py-1 border-2 border-{{ $kule }} bg-{{ $kule }}/25">{{ $k }}</a>
+                {{ end }}
             {{ end }}
         </div>
     </div>
 </div>
-
 {{ end }}
 
 {{ define "main" }}
 
-{{ $pages := .Pages }}
-{{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
-{{ $paginator := .Paginate (where $pages "Section" "==" "post") }}
+<div class="lt-card-list">
 
 <div class="flex justify-center">
 
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-8 max-w-screen-2xl">
 
-{{ partial "pagelist.html" $paginator.Pages }}
+{{ partial "pagelist.html" .Pages }}
 
 </div>
 
 </div>
-
-<nav class="flex justify-center py-2">{{ partial "pagination.html" . }}</nav>
 
 {{ end }}

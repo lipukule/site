@@ -2,41 +2,90 @@
 
 {{ $s := site }}
 
-<div class="lt-card lt-article-card {{ with .Params.kule }} bg-{{ index $s.Data.poki . "kule" }} {{ end }} prose prose-small" onclick="location.href = {{ .RelPermalink }}" role="button">
+{{/*
+bg-lojunu
+bg-loje
+bg-lojelo
+bg-jelo
+bg-graso
+bg-laso
+bg-blaso
+bg-lasewi
+bg-lasunu
+bg-unu
 
-    <div class="len">
-        <div>
-            <span>len li tan ni:</span>
-            <ul>
-                {{ with .Params.poki }}
-                {{ range first 1 . }}
-                <li>{{ . }}</li>
-                {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-    </div>
+bg-lojunu/25
+bg-loje/25
+bg-lojelo/25
+bg-jelo/25
+bg-graso/25
+bg-laso/25
+bg-blaso/25
+bg-lasewi/25
+bg-lasunu/25
+bg-unu/25
+
+dark:bg-lojunu/25
+dark:bg-loje/25
+dark:bg-lojelo/25
+dark:bg-jelo/25
+dark:bg-graso/25
+dark:bg-laso/25
+dark:bg-blaso/25
+dark:bg-lasewi/25
+dark:bg-lasunu/25
+dark:bg-unu/25
+
+border-lojunu
+border-loje
+border-lojelo
+border-jelo
+border-graso
+border-laso
+border-blaso
+border-lasewi
+border-lasunu
+border-unu
+*/}}
+
+<div class="rounded-lg {{ with .Params.kule }} bg-{{ index $s.Data.poki . "kule" }} dark:bg-{{ index $s.Data.poki . "kule" }}/25 {{ end }}">
+    {{ $it := . }}
 
     {{ with .Params.thumbnail }}
-        <div class="thumbnail"><img class="lt-article-card-thumbnail" src="{{ . }}" alt="Thumbnail" style="margin-top: 0; margin-bottom: 0;"/></div>
+        <div class="rounded-t-lg h-48 w-full bg-black/10 backdrop-saturate-150 text-white">
+            <img class="rounded-t-lg h-48 w-full object-cover absolute -z-20" src="{{ . }}" alt="Thumbnail"/>
+            <div class="rounded-t-lg h-48 w-full absolute -z-10 bg-black/40"></div>
+
+            {{ with $it.Params.janpali }}
+            <div class="flex px-4 pt-4 gap-4">
+            {{range first 2 . }}
+            <address class="not-italic"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">{{ . }}&nbsp;</a></address>
+            {{ end }}
+            </div>
+            {{ end }}
+            <h2 class="px-4 font-bold text-xl"><a href="{{ $it.RelPermalink }}">{{ $it.Title }}</a></h2>
+        </div>
+    {{ else }}
+        <div class="rounded-t-lg h-48 w-full bg-black/10 backdrop-saturate-150">
+            {{ with $it.Params.janpali }}
+            <div class="flex px-4 pt-4 gap-4">
+            {{range first 2 . }}
+            <address class="not-italic"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">{{ . }}&nbsp;</a></address>
+            {{ end }}
+            </div>
+            {{ end }}
+            <h2 class="px-4 font-bold text-xl"><a href="{{ $it.RelPermalink }}">{{ $it.Title }}</a></h2>
+        </div>
     {{ end }}
 
-    <h2 class="lt-article-card-title" style="margin-bottom: 0.2em; margin-top: 0.2em;">{{ .Title }}</h2>
-
-    {{ with .Params.janpali }}
-    {{range first 2 . }}
-    <address class="lt-article-card-author"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">tan {{ . }}&nbsp;</a></address>{{ end }}
-    {{ end }}
-
-    <p>
+    <p class="px-4 pt-2 text-gray-800 dark:text-white/70">
         {{ .Summary }}
     </p>
 
     {{ with .Params.poki }}
-    <div class="lt-article-card-row">
-        <div class="lt-article-card-row-spacer"></div>
+    <div class="px-4 pt-2 pb-4">
         {{ range . }}
-        <a class="lt-article-card-chip" href="{{ relURL (print "/poki/" . | urlize) }}">{{ . }}</a>
+        <a class="bg-black/10 backdrop-saturate-150 px-2 py-1 rounded-full" href="{{ relURL (print "/poki/" . | urlize) }}">#{{ . }}</a>
         {{ end }}
     </div>
     {{ end }}

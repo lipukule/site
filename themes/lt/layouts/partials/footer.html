@@ -1,22 +1,20 @@
-<footer class="lt-site-footer">
-    <span class="lili-taso">
-        {{ range $k := (site).Data.ijo }}
-            <a href="/kule/{{ $k }}" class="fg-{{ index (site).Data.poki $k "kule" }}">{{ $k }}</a>
-        {{ end }}
-    </span>
-    <br>
-    <br>
-    <a href="https://discord.gg/TmReVRxG8Z" />o lukin e kulupu Siko mi!</a>
-    <a href="https://t.me/lipukule" />o lukin e kulupu Telekan mi!</a>
-    <button onclick="toggleScheme()">ante e nasin lukin lipu</button>
-    <br>
-    <br>
-    <span>
-        lipu li toki ante ala la, lipu <a href="https://creativecommons.org/licenses/by-sa/4.0/">"CC-BY-SA 4.0"</a> li lawa e ona.
-    </span>
-    <br>
-    <br>
-    <span>
-       <a href="https://tokipona.org">toki pona</a> li tan jan Sonja.
-    </span>
+<footer class="flex justify-center py-4">
+    <div class="max-w-screen-2xl px-8 w-full flex justify-between">
+        <div>
+            <p>
+                <a class="underline" href="https://discord.gg/TmReVRxG8Z" />kulupu Siko pi lipu Kule</a>
+            </p>
+            <p>
+                <a class="underline" href="https://t.me/lipukule" />kulupu Telekan pi lipu Kule</a>
+            </p>
+        </div>
+        <div class="text-right">
+            <p>
+                lipu li toki ante ala la, lipu <a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/">"CC-BY-SA 4.0"</a> li lawa e ona.
+            </p>
+            <p>
+               <a class="underline" href="https://tokipona.org">toki pona</a> li tan jan Sonja.
+            </p>
+        </div>
+    </div>
 </footer>

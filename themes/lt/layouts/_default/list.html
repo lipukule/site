@@ -1,13 +1,35 @@
 {{ define "heading" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-<button onclick="addlen('{{ .Title }}')">o len e {{ .Title }}</button>
-<button onclick="removelen('{{ .Title }}')">o len ala e {{ .Title }}</button>
+
+developer error
+
+o toki e ni tawa akesi Jan
+
+<div class="flex justify-center">
+    <div class="max-w-screen-2xl px-8 pb-4 w-full">
+        <div class="prose dark:prose-invert">
+			<h1>{{ .Title }}</h1>
+			{{ .Content }}
+        </div>
+    </div>
+</div>
+
 {{ end }}
+
 {{ define "main" }}
-<br>
-<div class="lt-card-list">
+
+
+developer error
+
+o toki e ni tawa akesi Jan
+
+<div class="flex justify-center">
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-8 max-w-screen-2xl">
 
 {{ partial "pagelist.html" .Pages }}
+
+</div>
+
+</div>
 
 {{ end }}
