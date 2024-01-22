@@ -4,18 +4,19 @@
     <div class="max-w-screen-2xl px-8 w-full">
         <div class="prose dark:prose-invert">
             <h1 class="mb-0">
-                lipu sin pi <i>lipu kule</i>
+                {{ i18n "index.lipu-sin" }}
             </h1>
 
             <p class="mt-0">
-                ni li lipu sin pi lipu kule. o lukin e ona!
+                {{ i18n "index.o-lukin" }}
             </p>
         </div>
 
         <div class="flex flex-row gap-2 pb-4">
             {{ range $k := (site).Data.ijo }}
+                {{ $ante := i18n (print "kule." $k) }}
                 {{ $kule := index (site).Data.poki $k "kule" }}
-                <a href="/kule/{{ $k }}" class="rounded-full px-2 py-1 border-2 border-{{ $kule }} bg-{{ $kule }}/25">{{ $k }}</a>
+                <a href="{{ relLangURL (print "/kule/" $k) }}" class="rounded-full px-2 py-1 border-2 border-{{ $kule }} bg-{{ $kule }}/25">{{ $ante }}</a>
             {{ end }}
         </div>
     </div>

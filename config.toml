@@ -3,7 +3,7 @@ languageCode = "tok"
 title = "lipu kule"
 theme = "lt"
 paginate = 6
-DefaultContentLanguage = "tok"
+defaultContentLanguage = "tok"
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -26,9 +26,16 @@ DefaultContentLanguage = "tok"
 
 [languages]
     [languages.tok]
-    contentDir = "content/tok"
-    languageName = "toki pona"
+    languageCode = 'tok'
+    languageName = "toki pona pi sitelen Lasina"
     weight = 1
+    enableMissingTranslationPlaceholders = true
+
+    [languages.sp]
+    languageCode = 'sp'
+    languageName = "󱥬󱦖󱥔󱥍󱦗󱥠󱥔󱦘"
+    weight = 2
+    enableMissingTranslationPlaceholders = true
 
 [security]
 	[security.exec]

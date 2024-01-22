@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   darkMode: 'media',
   content: [
@@ -25,6 +27,9 @@ module.exports = {
         'lasewi': '#76d0ff',
         'lasunu': '#b3beff',
         'unu': '#fbadff',
+      },
+      fontFamily: {
+        'sans': [...defaultTheme.fontFamily.sans, "sitelenselikiwenjuniko"],
       }
     },
   },

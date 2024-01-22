@@ -59,7 +59,7 @@ border-unu
             {{ with $it.Params.janpali }}
             <div class="flex px-4 pt-4 gap-4">
             {{range first 2 . }}
-            <address class="not-italic"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">{{ . }}&nbsp;</a></address>
+            <address class="not-italic"> <a href="{{ relLangURL (print "/janpali/" . | urlize) }}">{{ i18n (print "jan-pali." .) }}&nbsp;</a></address>
             {{ end }}
             </div>
             {{ end }}
@@ -70,7 +70,7 @@ border-unu
             {{ with $it.Params.janpali }}
             <div class="flex px-4 pt-4 gap-4">
             {{range first 2 . }}
-            <address class="not-italic"> <a href="{{ relURL (print "/janpali/" . | urlize) }}">{{ . }}&nbsp;</a></address>
+            <address class="not-italic"> <a href="{{ relLangURL (print "/janpali/" . | urlize) }}">{{ i18n (print "jan-pali." .) }}&nbsp;</a></address>
             {{ end }}
             </div>
             {{ end }}
@@ -85,7 +85,7 @@ border-unu
     {{ with .Params.poki }}
     <div class="px-4 pt-2 pb-4">
         {{ range . }}
-        <a class="bg-black/10 backdrop-saturate-150 px-2 py-1 rounded-full" href="{{ relURL (print "/poki/" . | urlize) }}">#{{ . }}</a>
+        <a class="bg-black/10 backdrop-saturate-150 px-2 py-1 rounded-full" href="{{ relLangURL (print "/poki/" . | urlize) }}">#{{ i18n (print "poki." .) }}</a>
         {{ end }}
     </div>
     {{ end }}
