@@ -1,0 +1,49 @@
+name: Preview site
+
+on:
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: false
+          fetch-depth: 0
+          lfs: true
+
+      - name: Fetch NPM dependencies
+        env:
+          NPM_CONFIG_PREFIX: "~/.npm-global"
+        run: |
+          export PATH=$HOME/.npm-global/bin:$PATH
+          npm install -g @babel/cli @babel/core
+          yarn
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.111.3'
+          extended: true
+
+      - name: Setup base URL env var
+        run: |
+          export PRNUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+          echo BASEURL="https://lipukule-site-preview-pr-"$PRNUMBER".surge.sh/" >> $GITHUB_ENV
+
+      - name: Build Site
+        run: |
+          hugo --baseURL "${{ env.BASEURL }}"
+
+      - name: Deploy Preview
+        uses: afc163/surge-preview@v1
+        id: preview_step
+        with:
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          dist: public
+          failOnError: 'true'
+          teardown: true
+          build: |
+            echo Deploying to surge.sh
