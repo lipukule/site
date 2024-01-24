@@ -1,0 +1,25 @@
+---
+title: 󱤪󱦐󱥷󱤎󱤛󱤎󱥎󱤊󱥜󱤎󱤓󱤄󱦑󱥝
+janpali:
+- jan Jan
+date: '2021-05-02'
+poki:
+  - toki pona
+  - pali musi
+kule: toki
+summary: 󱤑󱤧󱥉󱤉󱤪󱦐󱥷󱤎󱤛󱤎󱥎󱤊󱥜󱤎󱤓󱤄󱦑󱥝󱦜　󱤑󱦐󱥫󱦖󱦜󱥔󱦜󱦑󱤧󱤖󱤓󱤉󱤎󱥩󱤪󱦜　󱤑󱦐󱥖󱦜󱥜󱦜󱦑󱤧󱥌󱤉󱥠󱥩󱥆󱦜　󱤑Mimoku󱤧󱦅󱤉󱥠󱦢󱥧tokipona.wikipedia.org(󱤪󱤷)󱦜
+---
+
+󱤑󱤧󱥉󱤉󱤪󱦐󱥷󱤎󱤛󱤎󱥎󱤊󱥜󱤎󱤓󱤄󱦑󱥝󱦜　󱤑󱦐󱥫󱦖󱦜󱥔󱦜󱦑󱤧󱤖󱤓󱤉󱤎󱥩󱤪󱦜　󱤑󱦐󱥖󱦜󱥜󱦜󱦑󱤧󱥌󱤉󱥠󱥩󱥆󱦜　󱤑Mimoku󱤧󱦅󱤉󱥠󱦢󱥧tokipona.wikipedia.org(󱤪󱤷)󱦜
+
+## 󱥧󱥙
+
+fandom.com󱤧󱤍󱤼󱦜　󱥆󱤧󱤓󱤉󱤌󱤼󱥍󱦗󱦘󱥬󱦖󱥔󱦘󱤂󱤧󱤓󱤉󱤪󱤲󱤼󱦜　fandom.com󱤧󱤪󱥍󱦗󱥬󱦖󱥔󱦘󱤂󱦜
+
+󱥹󱤡󱤑󱥧󱤟󱥍󱦗󱦅󱥂󱦐󱤌󱥡󱦜󱦑󱦘󱥩󱥬󱦖󱥔󱤧󱥷󱤉󱤪󱤼󱥍󱦗󱥬󱦖󱥔󱦘󱦜　󱤪󱦐󱥷󱤎󱤛󱤎󱥎󱤊󱥜󱤎󱤓󱤄󱦑󱤧󱥠󱤉󱥁󱦝　󱥬󱦖󱥔󱤧󱥬󱤬󱦜　󱥆󱤧󱥠󱤉󱥁󱥹󱦝　󱤑󱤧󱥬󱤉󱥬󱦖󱥔󱦜
+
+󱥹󱥹󱤡󱥫󱥐󱤡wikipedia.org󱤧󱤓󱤉󱤪󱥬󱥔󱦜　󱥨󱤑󱤼󱤂󱤧󱥬󱦖󱥔󱤬󱥫󱥆󱦜　󱤪󱥁󱤧󱦅󱤉󱤪󱤷󱥍󱦗󱥬󱦖󱥔󱦘󱥧wikipedia.org󱤧󱥌󱤉󱤬󱥝󱥩󱥆󱦜
+
+󱤪󱥁󱤧󱤖󱥇󱦜　󱥄󱤮󱥄󱥠󱥄󱥔󱤉󱥆󱤀󱦜
+
+https://wikipesija.org
