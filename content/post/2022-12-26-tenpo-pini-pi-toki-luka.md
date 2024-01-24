@@ -10,7 +10,7 @@ kule: toki
 ---
 
 nimi suli ni li powe lili. toki luka li ken sin li ken toki pali. en
-**luka pona** en **luka Kesuno** (*Gestun*o) en **luka Nawi** (*Na\'vi
+**luka pona** en **luka Kesuno** (*Gestuno*) en **luka Nawi** (*Na\'vi
 Sign Language*) li sin li toki pali. kin la, en nasin toki Makaton en
 nasin luka pi toki uta (toki Inli luka - *SEE*, toki pona luka pu) li
 sin li tan pali jan li toki ala. jan li pali e ona ale.
@@ -73,23 +73,23 @@ tenpo sike *1880* la, **ma tomo Milan** la, jan pi pana sona li kulupu
 li toki e ni: *\"jan pi kute ala o kama ala e sona pi toki luka tan ni:
 ona li pake e sona pi toki uta. mi ale o pana e toki uta tawa ona. ni li
 lawa sin! o kute!\"* ona mute mute mute li ken kute ale. ona li pali e
-**nasin pi pana sona pi uta** **taso**
+**nasin pi pana sona pi uta taso**
 
 jan li pilin e ni lon tenpo pini pi kulupu ni. taso ni li lawa e jan. ni
 la, tomo sona mute li pana ala e toki luka tawa jan lili pi kute ala. ni
-li ike tawa ona mute. **jan Be** (*Alexander Graham Bell*) li mama pi
+li ike tawa ona mute. **jan Pe** (*Alexander Graham Bell*) li mama pi
 ilo toki li jan suli lon kulupu ni li toki sama la, ona li ike tawa
 kulupu pi kute ala.
 
 tomo mute pi pana sona pi jan lili pi kute ala lon ma Juke la, nasin pi
 pana sona pi uta taso li lon. taso jan lili suli li pana sona e **luka
 Juke** (*BSL*) tawa jan lili lili. luka Juke li awen lon. en luka Juke
-en juke Mewika li ante mute a. kulupu ona li ante.
+en luka Mewika li ante mute a. kulupu ona li ante.
 
 ma mute la, toki luka li ante a. taso ona li ken lon kulupu toki. luka
 Nijon (*日本手話*) li mama e luka Anku (*한국 수화 언어*,
-*韓國手話言語)* luka Tawan (*台灣手語*). en luka Tawan en luka Sonko
-(中国手语) li ante a li lon kulupu toki ante.
+*韓國手話言語*) e luka Tawan (*台灣手語*). en luka Tawan en luka Sonko
+(*中国手语*) li ante a li lon kulupu toki ante.
 
 kin la, tenpo pini la, ma Nikulaka (*Nicuragua*) la, toki luka li lon
 ala. jan li pali e tomo sona pi jan lili pi kute ala la, jan lili mute
