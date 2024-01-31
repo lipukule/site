@@ -4,9 +4,13 @@
 @tailwind variants;
 
 @font-face {
-    font-family: "sitelenselikiwenjuniko";
-    src: url(https://www.kreativekorp.com/lib/font/sitelenselikiwenjuniko.eot);
-    src: url(https://www.kreativekorp.com/lib/font/sitelenselikiwenjuniko.ttf) format("truetype");
+    font-family: 'linja insa';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/linjainsa-Regular.woff2') format('woff2'),
+        url('/linjainsa-Regular.woff') format('woff'),
+        url('/linjainsa-Regular.ttf') format("truetype");
 }
 
 .page-item a {

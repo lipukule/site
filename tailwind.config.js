@@ -29,7 +29,7 @@ module.exports = {
         'unu': '#fbadff',
       },
       fontFamily: {
-        'sans': [...defaultTheme.fontFamily.sans, "sitelenselikiwenjuniko"],
+        'sans': [...defaultTheme.fontFamily.sans, "linja insa"],
       }
     },
   },
