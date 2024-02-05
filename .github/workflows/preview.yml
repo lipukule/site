@@ -30,7 +30,7 @@ jobs:
       - name: Setup base URL env var
         run: |
           export PRNUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
-          echo BASEURL="https://lipukule-site-preview-pr-"$PRNUMBER".surge.sh/" >> $GITHUB_ENV
+          echo BASEURL="https://lipukule-site-deploy-pr-"$PRNUMBER".surge.sh/" >> $GITHUB_ENV
 
       - name: Build Site
         run: |
