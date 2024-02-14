@@ -25,8 +25,7 @@
     <div class="w-full max-w-2xl flex justify-between">
         {{ if .NextInSection }}
         <a class="p-2 bg-black/10 backdrop-saturate-150 rounded-lg" href="{{ .NextInSection.Permalink }}">
-            {{ T "previous" }}
-            sin: {{ .NextInSection.Title | truncate 50 "..."}}
+            {{ T "previous" }}{{ .NextInSection.Title | truncate 50 "..."}}
         </a>
         {{ else }}
         <div></div>
@@ -34,8 +33,7 @@
 
         {{ if .PrevInSection }}
         <a class="p-2 bg-black/10 backdrop-saturate-150 rounded-lg" href="{{ .PrevInSection.Permalink }}">
-            {{ T "next" }}
-            majuna: {{ .PrevInSection.Title | truncate 50 "..." }}
+            {{ T "next" }}{{ .PrevInSection.Title | truncate 50 "..." }}
         </a>
         {{ else }}
         <div></div>
