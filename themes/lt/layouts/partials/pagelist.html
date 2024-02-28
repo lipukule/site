@@ -52,7 +52,7 @@ border-unu
     {{ $it := . }}
 
     {{ with .Params.thumbnail }}
-        <div class="rounded-t-lg h-48 w-full bg-black/10 backdrop-saturate-150 text-white">
+        <div class="rounded-t-lg h-48 w-full bg-black/10 backdrop-saturate-150 relative text-white">
             <img class="rounded-t-lg h-48 w-full object-cover absolute -z-20" src="{{ . }}" alt="Thumbnail"/>
             <div class="rounded-t-lg h-48 w-full absolute -z-10 bg-black/40"></div>
 
