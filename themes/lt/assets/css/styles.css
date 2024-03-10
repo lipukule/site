@@ -13,6 +13,18 @@
         url('/linjainsa-Regular.ttf') format("truetype");
 }
 
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
+	content: no-close-quote;
+}
+
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
+	content: no-open-quote;
+}
+
+.prose :where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+	font-style: normal;
+}
+
 .page-item a {
 	@apply py-2 px-4 rounded-full hover:bg-laso/50 inline-block;
 }
