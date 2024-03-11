@@ -4,9 +4,9 @@ module.exports = {
   darkMode: 'media',
   content: [
     "./themes/**/layouts/**/*.html",
-    "./content/**/layouts/**/*.html",
     "./layouts/**/*.html",
-    "./content/**/*.html"
+    "./content/**/*.html",
+    "./content/**/*.md"
   ],
   theme: {
     extend: {
@@ -29,7 +29,8 @@ module.exports = {
         'unu': '#fbadff',
       },
       fontFamily: {
-        'sans': [...defaultTheme.fontFamily.sans, "linja insa"],
+        'sans': ["Inter", ...defaultTheme.fontFamily.sans, "linja insa"],
+        'linja-insa': ["linja insa"],
       }
     },
   },
