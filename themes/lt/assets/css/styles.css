@@ -10,7 +10,17 @@
     src: local(''),
         url('/linjainsa-Regular.woff2') format('woff2'),
         url('/linjainsa-Regular.woff') format('woff'),
-        url('/linjainsa-Regular.ttf') format("truetype");
+        url('/linjainsa-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'linja insa luka';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('/linjainsaluka-Regular.woff2') format('woff2'),
+        url('/linjainsaluka-Regular.woff') format('woff'),
+        url('/linjainsaluka-Regular.otf') format("opentype");
 }
 
 .prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
@@ -53,5 +63,7 @@
 		prose-h1:my-2
 		prose-h2:my-2
 		prose-li:my-0
-		prose-p:mb-0;
+		prose-p:mb-0
+		prose-headings:font-linja-insa
+		font-linja-insa-luka;
 }

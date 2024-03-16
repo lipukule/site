@@ -30,7 +30,8 @@ module.exports = {
       },
       fontFamily: {
         'sans': ["Inter", ...defaultTheme.fontFamily.sans, "linja insa"],
-        'linja-insa': ["linja insa"],
+        'linja-insa': ["linja insa", "Inter", ...defaultTheme.fontFamily.sans],
+        'linja-insa-luka': ["linja insa luka", "Inter", ...defaultTheme.fontFamily.sans],
       }
     },
   },
